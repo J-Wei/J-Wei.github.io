@@ -1,0 +1,13 @@
+.right .mid_page>img{float: right;margin-top: 20px;}
+.right .mid_page h3{font: 22px "微软雅黑";color: #000;margin: 72px 0 18px;}
+.right .mid_page h4{font: 18px "微软雅黑";color: #666;margin: 0 0 46px 142px;}
+.right .mid_page p{font: 14px/24px "微软雅黑";color: #666;text-indent: 2em;margin-bottom: 34px;}
+.mid_page img+h3+h4+p+p+p+p{width: 565px;}
+.right .mid_page .share{float: right;}
+.right .mid_page .share p{float: left;}
+.right .mid_page .share span{float: left;color: #c31a18;}
+.right .mid_page .share img{float: left;cursor: pointer;margin: 0 8px;}
+.right .mid_page .mid_bottom a b{font: 14px "微软雅黑";color: #666;}
+.right .mid_page .mid_bottom a:first-child{float: left;}
+.right .mid_page .mid_bottom a:first-child+a{float: right;}
+.right .mid_page .mid_bottom a:hover b{color: #c31a18;}
