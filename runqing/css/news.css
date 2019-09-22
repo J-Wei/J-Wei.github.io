@@ -1,0 +1,7 @@
+.main{width: 740px;margin-top: 44px;margin-left: 20px;}
+.main li{background: url(../img/news_bg1.png);background-repeat:repeat-x;background-position:bottom;margin-top: 20px;}
+.main li img{float: left;margin-top: 6px;}
+.main li a b{font: 14px/22px "微软雅黑";color: #000;float: left;margin-left: 10px;}
+.main li a span{float: right;font: 14px/22px "微软雅黑";color: #494949;}
+.main li:hover a b,.main li:hover a span{color: #c31a18;}
+

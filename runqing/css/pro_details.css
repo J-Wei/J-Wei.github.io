@@ -1,0 +1,17 @@
+.right .mid_page .mid_center{width: 742px;margin: 80px 0 0 10px;}
+.right .mid_page .mid_center img{float: left;margin-right: 18px;}
+.right .mid_page .mid_center p{font:16px/28px "微软雅黑";color: #333;}
+.right .mid_page .mid_center img+p{margin-bottom: 20px;}
+
+
+
+
+.right .mid_page .share{float: right;margin-top: 50px;}
+.right .mid_page .share p{float: left;}
+.right .mid_page .share span{float: left;color: #c31a18;}
+.right .mid_page .share img{float: left;cursor: pointer;margin: 0 8px;}
+.right .mid_page .mid_bottom{margin-top: 30px;}
+.right .mid_page .mid_bottom a b{font: 14px "微软雅黑";color: #666;}
+.right .mid_page .mid_bottom a:first-child{float: left;}
+.right .mid_page .mid_bottom a:first-child+a{float: right;}
+.right .mid_page .mid_bottom a:hover b{color: #c31a18;}
