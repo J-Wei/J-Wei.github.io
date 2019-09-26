@@ -1,0 +1,43 @@
+/*@media screen and (min-width: 160px) {html{font-size:31.25%;}}*/
+/*@media screen and (min-width: 200px) {html{font-size:39.0625%;}}*/
+/*@media screen and (min-width: 240px) {html{font-size:46.875%;}}*/
+/*@media screen and (min-width: 280px) {html{font-size:54.6875%;}}*/
+@media screen and (min-width: 320px) {html{font-size:62.5%;}} /* 10px/16px*100%  10px*/
+@media screen and (min-width: 360px) {html{font-size:70.3125%;}}
+@media screen and (min-width: 400px) {html{font-size:78.125%;}}
+@media screen and (min-width: 440px) {html{font-size:85.9375%;}}
+@media screen and (min-width: 480px) {html{font-size:93.75%;}}
+@media screen and (min-width: 520px) {html{font-size:101.5625%;}}
+@media screen and (min-width: 560px) {html{font-size:109.375%;}}
+@media screen and (min-width: 600px) {html{font-size:117.1875%;}}
+@media screen and (min-width: 640px) {html{font-size:125%;}}/*20px/16px*100%  20px */
+/*@media screen and (min-width: 680px) {html{font-size:132.8125%;}}*/
+/*@media screen and (min-width: 720px) {html{font-size:140.625%;}}*/
+/*@media screen and (min-width: 760px) {html{font-size:148.4375%;}}*/
+/*@media screen and (min-width: 800px) {html{font-size:156.25%;}}*/
+
+body{min-width: 320px;max-width: 640px;margin: 0 auto;}
+*{margin:0;padding: 0;font-family: 微软雅黑;}
+img{display:block;border:none;}
+ul{list-style: none;}
+input,a,select,textarea{outline:none;}
+h1,h2,h3,h4,h5,h6,b,strong,i,em{font:.5rem normal;font-family: 微软雅黑;}
+s,del,a{text-decoration: none;font-size:.5rem;color:#333;}
+textarea{resize: none;}
+.clear{clear: both;}
+.clearfix:after{content:'';width:0;height:0;display: block;visibility: hidden;clear: both;}
+
+header h1{width:100%;background:#DE2910;font:1rem/2rem 微软雅黑;color:#fff;text-align:center;}
+nav li{float:left;width:18%;text-align:center;font:.75rem/1.5rem 微软雅黑;color:#fff;background:#00c;margin:.7rem 1%;border-radius:5px;}
+.new{background:green;}
+/*.content{width:100%;overflow:hidden;}
+.content div{width:500%;}
+article{float:left;width:20%;}*/
+article img{display:block;margin:10px 0;width:100%;}
+article li{font:bold 1rem/1.5rem 微软雅黑;padding:0 10px;}
+article h1{font:bold 1rem/1.5rem 微软雅黑;padding:0 10px;}
+article p{font:.75rem/1.5rem 微软雅黑;padding:0 10px;text-indent:2em;margin-bottom:10px;}
+footer{height:20px;}
+
+
+
