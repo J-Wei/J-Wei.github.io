@@ -1,0 +1,39 @@
+.core{margin-top: 50px;}
+.core img{width: 100%;}
+.core h1{font: 30px/60px "微软雅黑";color: #f1f1f1;background: #eeab8f;margin: 0;text-align: center;}
+.core form>div{margin: 30px 0;}
+.core form>div .input-box{margin-left: 30px;}
+.core form>div label{font: 18px/50px "微软雅黑";color: #282828;}
+.core form>div input{font: 18px "微软雅黑";color: #282828;padding: 12px 5px;border: 2px solid #eeab8f;width: 100%;}
+.core form>div .picture{background: url(../img/login2.jpg) no-repeat;cursor: pointer;background-size:90%;background-position: center center;margin-left: 10px;padding: 25px 0;}
+.core form>div a{display: block;font: 18px/50px "微软雅黑";color: #282828;text-align: center;}
+.core form>div [type=submit]{font: 30px/60px "微软雅黑";color: #fff;background: #00448d;border: none;}
+.core form>div p a{font: 16px/86px "微软雅黑";color: #282828;display: inline-block;}
+.core .sign{margin-left: 30px;}
+
+
+@media screen and (max-width: 1199px){
+	.core form>div{margin: 20px 0;}
+}
+@media screen and (max-width: 991px){
+	.core h1,.core form > div [type="submit"]{font: 24px/50px "微软雅黑";}
+	.core form>div{margin: 15px 0;}
+	.core form>div label,.core form>div a{font: 14px/36px "微软雅黑";}
+	.core form>div input{font: 18px/32px "微软雅黑";}
+	.core form>div .picture{padding: 18px 0;}
+	.core form>div p a{font: 14px/48px "微软雅黑";}
+}
+@media screen and (max-width: 767px){
+	.core {padding: 0 10px;}
+	.core img{margin-bottom: 50px;}
+	.core h1,.core form > div [type="submit"]{font: 24px/42px "微软雅黑";}
+	.core form>div a{text-align: right;font: 16px/24px "微软雅黑";}
+	.core form>div label{font: 20px/28px "微软雅黑";text-align: left;}
+	.core form>div .input-box{margin-left: 0;}
+	.core form>div .picture{padding: 12px 0;}
+	.core form>div input{font: 20px/24px "微软雅黑";}
+	.core form>div .picture{margin: 0;}
+	.core .sign{margin-top: 30px;}
+	.core .sign div:first-child+div p a{color: #eeab8f;}
+	.footer{margin-top: 0;}
+}

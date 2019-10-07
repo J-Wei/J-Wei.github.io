@@ -1,0 +1,33 @@
+h2{font: 24px/50px "微软雅黑";text-align: center;color: #f7f6f6;margin:0 0 1px 0;background-color: #eeab8f;}
+#sideMenu .hd{cursor:pointer;}
+#sideMenu .hd h3{font: 20px/50px "微软雅黑";color: #f7f6f6;margin:0 0 1px 0;padding:0 20px;background:url(../img/product3.png) no-repeat;background-position: 90% center;background-color: #eeab8f;}
+#sideMenu .on{}
+#sideMenu .on h3{font: 20px/50px "微软雅黑";color: #e42626;margin:0 0 1px 0;padding:0 20px;background:url(../img/product4.png) no-repeat;background-position: 90% center;background-color: #eeab8f;}
+#sideMenu .bd{display:none;background: #ebebeb;border: 1px solid #d9d9d9;padding: 10px 0 5px;margin-bottom: 1px;}
+#sideMenu .bd li{text-align: center;}
+#sideMenu .bd a{font: 16px/44px "微软雅黑";color: #e8926e;}
+#sideMenu .bd a:hover{color: #e42626;}
+.screen form div{background: #f7f6f6;padding: 10px 20px;color: #e8926e;text-align: center;}
+.screen form div:first-child+div{background: none;}
+.screen form input{font: 18px/18px "微软雅黑";color: #eeab8f;border: 1px solid #b4b4b4;width: 40px;text-align: center;height: 18px;}
+
+
+.core img{width: 100%;}
+.other-commodities img{margin: 40px 0;}
+.core .col-md-10{padding-left: 30px;}
+h1{font: 24px/24px "微软雅黑";color: #eeab8f;margin-top:100px ;text-align: center;}
+
+
+
+#showbox { background:#eee;}
+#showsum { left:25px; margin-top:10px;}
+#showsum span { border:1px solid #ddd;}
+#showsum span .sel { border:1px solid #f60;}
+
+.core .showpage { width:400px; position:relative;}
+.core .showpage #showlast,.core .showpage #shownext { display:block; width:15px; border:1px solid #ddd; height:60px; line-height:60px; background:#eee; text-align:center; font-size:18px; position:absolute; left:0; top:-62px; text-decoration:none; color:#999;}
+.core .showpage #shownext { left:auto; right:0;}
+.core .showpage a:hover { background:#ccc; color:#777;}
+
+
+

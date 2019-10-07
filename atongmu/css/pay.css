@@ -1,0 +1,80 @@
+.core{margin-top: 30px;}
+.core>div{border: 1px solid #b4b4b4;margin-top: 50px;}
+.core>div:first-child{padding: 22px;}
+.core>div h1{font: 18px/40px "微软雅黑";color: #00448d;margin: 0;}
+.core>div h1 span{color: #be0120;}
+.core>div p{font: 16px/48px "微软雅黑";color: #a5a5a5;margin: 0;}
+.core>.failure-img img{width: 75%;}
+
+
+.core .payment-box{padding: 30px 0;}
+.core h2,.core h3{font: 18px/18px "微软雅黑";color: #282828;margin: 0;text-align: right;}
+.core h3{margin-top: 120px;}
+.payment-box form>div>div{padding: 0 12px;}
+.payment-box .bank input,.payment-box .quick input{display: none;}
+.payment-box .quick label,.payment-box .bank label{display: block;border: 1px solid #d1d1d1;cursor: pointer;}
+.payment-box form img{display: inline-block;}
+.payment-box .quick label{text-align: center;padding: 3px 3px;}
+.payment-box .bank{margin-top: 70px;margin-bottom: 25px;}
+.payment-box .bank label{text-align: center;padding: 11px 0;margin-bottom: 25px;}
+.payment-box .bank a{display: block;border: 1px solid #d1d1d1;text-align: center;padding: 16px 0;margin-bottom: 25px;font: 14px/14px "微软雅黑";color: #222;}
+.payment-box .bank a span{margin-left: 5px;}
+.core .payment-password{margin-bottom: 20px;}
+.core .payment-password div,.core .payment-password div label{font: 18px/40px "微软雅黑";color: #01458e;}
+.core .payment-password div span{color: #be0120;}
+.core .payment-box form input[type="submit"]{display:inline-block;width: 30%;font: 24px/50px "微软雅黑";color: #fff;background: #eeab8f;text-align: center;border: none;}
+
+
+
+.core .clearfix:after {clear: both;}
+.core .clearfix:before,.clearfix:after{content: " ";display: table;}
+.core .alieditContainer{position: relative;}
+.core .sixDigitPassword {position: absolute;left: -122px;top: 0;width: 1000px;height: 26px;color: #fff;font-size: 12px;-webkit-box-sizing: content-box;box-sizing: content-box;-webkit-user-select: initial;outline: 'none';z-index: 999;opacity:0;filter:alpha(opacity=0);}
+.core .sixDigitPassword-box {cursor:text;background: #fff;outline: none;position: relative;height: 40px;border: 1px solid #cccccc;}
+.core .sixDigitPassword-box i{width: 30px;float: left;display: block;padding-top: 15px;height: 38px;border-left: 1px solid #cccccc;}
+.core .sixDigitPassword-box i:first-child{border-color: transparent;}
+.core .sixDigitPassword-box .active {background: url(../img/password-blink.gif) no-repeat center center;}
+.core .sixDigitPassword-box b {display: block;margin: 0 auto;width: 7px;height: 7px;overflow: hidden;visibility:hidden;background: url(../img/passeord-dot.png) no-repeat;}
+.core .sixDigitPassword-box span {position: absolute;display: block;left: 0px;width: 30px;top: 0px;height: 38px;border: 1px solid rgba(82, 168, 236, .8);border: 1px solid #00ffff\9;border-radius: 2px;visibility: hidden;-webkit-box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.75), 0 0 8px rgba(82, 168, 236, 0.6);box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);}
+.core .ui-securitycore  .ui-form-item .ui-form-explain{margin-top: 8px;}
+.core .i-block{display:inline-block;}
+.core .six-password{position: relative;height:40px;width:182px;overflow: hidden;vertical-align: middle;}
+
+
+
+@media screen and (max-width: 991px){
+	.core>div h1{font: 14px/36px "微软雅黑";}
+	.core>div p{font: 12px/36px "微软雅黑";}
+	.core h2,.core h3{font: 14px/14px "微软雅黑";}
+	.payment-box form ul li{padding:0 10px;}
+	.core .payment-password div,.core .payment-password div label{font: 14px/32px "微软雅黑";}
+	.payment-box .bank a{padding: 14px 0;}
+	.core .sixDigitPassword-box{height: 32px;}
+	.core .sixDigitPassword-box i{width: 24px;height: 30px;}
+	.core .six-password{width: 146px;padding-top: 4px;}
+	.core .payment-box form input[type="submit"]{font: 20px/40px "微软雅黑";}
+	.core .sixDigitPassword-box span{width: 24px;height: 30px;}
+}
+@media screen and (max-width: 767px){
+	.mob-header a{font: 18px/20px "微软雅黑";color: #282828;}
+	.breadcrumb{padding: 0 15px;}
+	.dropdown-menu{width: 180px;min-width: 80px;position:absolute;right: 0;border: 1px solid #b4b4b4;border-radius:20%;}
+	.dropdown-menu li{width: 50%;}
+	.dropdown-menu li a{color: #000;font: 18px/40px "微软雅黑";padding: 0;}
+	.core{padding: 0 10px;}
+	.core>div{margin-top: 20px;}
+	.core>div:first-child{padding: 10px;margin-top: 50px;}
+	.core>div:first-child img{width: 90%;margin-top: 10px;}
+	.core>div h1,.core>div p{font: 12px/24px "微软雅黑";padding-left: 5px;}
+	.core h2,.core h3{font: 16px/38px "微软雅黑";text-align: left;}
+	.payment-box form ul li{padding:0 5px;}
+	.core .payment-box{border: none;}
+	.core h3{margin-top: 85px;}
+	.payment-box .bank label{padding:8px 3px;}
+	.payment-box .bank a{padding: 11px 0;}
+	.payment-box .bank{margin-top: 40px;margin-bottom: 0px;}
+	.core .payment-box form input[type="submit"]{font: 16px/32px "微软雅黑";width: 50%;margin: 0 auto;display: block;}
+	.footer{margin-top: 20px;}
+	.core .payment-password .text-right{text-align: left;}
+}
+

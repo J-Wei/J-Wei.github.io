@@ -1,0 +1,47 @@
+.core-left{padding-right: 40px;}
+h2{font: 24px/40px "微软雅黑";text-align: center;color: #fff;margin:0 0 2px 0;background-color: #eeab8f;}
+#sideMenu .hd h3{font: 20px/40px "微软雅黑";color: #fff;margin:0 0 2px 0;background-color: #eeab8f;text-align: center;}
+#sideMenu .bd{background: #ebebeb;padding: 10px 0 5px;margin-bottom: 2px;}
+#sideMenu .bd li{text-align: center;}
+#sideMenu .bd a{font: 18px/36px "微软雅黑";color: #282828;}
+#sideMenu .bd .on a,#sideMenu .bd a:hover{color: #be0120;}
+.core{margin-top:50px ;}
+.core p{font: 22px/22px "微软雅黑";color: #01458e;margin:0 20px 25px;}
+.table-responsive{border: 1px solid #B4B4B4;padding: 10px 0px 20px;margin-bottom: 50px;}
+.table-responsive caption{font: 20px/42px "微软雅黑";color: #282828;margin-left: 34px;}
+.table-responsive th{font: 18px/18px "微软雅黑";color: #282828;text-align: center;}
+.table-responsive td{font: 16px/38px "微软雅黑";color: #282828;text-align: center;}
+.table-responsive td a,.table-responsive td span{color: #be0120;}
+.table-responsive .table>tbody>tr>td,.table-responsive .table>thead>tr>th{border: none;}
+.core .increase{padding: 0 0 0 45px;}
+.core .increase a{display: block;padding: 16px 0;font: 20px/20px "微软雅黑";color: #fff;background: #eeab8f;text-align: center;}
+.core .increase a img{display: inline-block;margin-right: 14px;}
+
+.mob-core p{font: 20px/80px "微软雅黑";color: #282828;margin-top: 30px;}
+.mob-core p a{color: #eeab8f;}
+.mob-core p a span{border: 1px solid #eeab8f;margin-right: 10px;border-radius:50%;padding: 0 5px;font-size: 14px;}
+.mob-core table,.mob-core tr{width: 100%;}
+.mob-core table th{width: 38%;text-align: center;border: 1px solid #b4b4b4;font: 12px/30px "微软雅黑";color: #282828;}
+.mob-core table th img{height: 80%;}
+.mob-core table th input{display: none;}
+.mob-core table th:first-child{width: 24%;}
+.mob-core table td{text-align: center;border: 1px solid #b4b4b4;font: 12px/30px "微软雅黑";color: #282828;padding: 0 10px;}
+.mob-core table td:first-child{padding: 0;}
+.mob-core table td a{color: #be0120;}
+
+
+
+@media screen and (max-width: 991px) {
+.core-left{padding-right: 20px;}
+#sideMenu .bd a{font: 14px/30px "微软雅黑";color: #282828;}
+.core .increase{padding: 0;}
+}
+@media screen and (max-width: 767px) {
+	.mob-header a{font: 18px/20px "微软雅黑";color: #282828;}
+	.breadcrumb{padding: 0 15px;}
+	.dropdown-menu{width: 180px;min-width: 80px;position:absolute;right: 0;border: 1px solid #b4b4b4;border-radius:20%;}
+	.dropdown-menu li{width: 50%;}
+	.dropdown-menu li a{color: #000;font: 18px/40px "微软雅黑";padding: 0;}
+	.dropdown-menu li:first-child+li+li a{color: #eeab8f;}
+	.breadcrumb{margin-top: 30px;}
+	.pagination{margin-top: 50px;}}

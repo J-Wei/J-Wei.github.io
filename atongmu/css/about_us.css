@@ -1,0 +1,13 @@
+h1{font: 30px/90px "微软雅黑";color: #eeab8f;text-align: center;margin-top: 20px;}
+.core p{font: 20px/34px "微软雅黑";color: #282828;margin-top: 20px;text-indent: 2em;}
+@media screen and (max-width: 1200px){
+	.core p{font: 16px/28px "微软雅黑";margin-top: 10px;}
+}
+@media screen and (max-width: 991px){
+	.core p{font: 14px/20px "微软雅黑";margin-top: 5px;}
+}
+@media screen and (max-width: 767px){
+	.core img{margin: 0 auto;}
+	.core p{font: 20px/40px "微软雅黑";margin-top: 20px;}
+	.history{padding: 0 15px;}
+}

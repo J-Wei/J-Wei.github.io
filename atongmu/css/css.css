@@ -1,0 +1,21 @@
+#preview{ float:none; margin:0 auto; text-align:center; width:500px;}
+.jqzoom{ width:400px; height:400px; position:relative;}
+.jqzoom img{width:400px; height:400px;}
+
+.zoomdiv{ left:859px; height:400px; width:400px;}
+.list-h{float: left;width: 2000px;position: absolute;left: 0px;}
+.list-h li{ float:left;}
+#spec-n5{width:400px; height:90px;overflow:hidden;margin-top: 10px;}
+#spec-left,#spec-right{width:35px;float:left; cursor:pointer;margin-top: 15px;}
+#spec-left img,#spec-right img{width: 100%;}
+#spec-list{ width:330px; float:left; overflow:hidden; display:inline;position: relative;height: 90px;}
+#spec-list ul li{ float:left; margin-right:0px; display:inline; width:110px;}
+#spec-list ul li img{width:90px; height:90px;cursor: pointer;}
+
+/*jqzoom*/
+.jqzoom{position:relative;padding:0;}
+.zoomdiv{z-index:100;position:absolute;top:1px;left:0px;width:400px;height:400px;background:url(i/loading.gif) #fff no-repeat center center;border:1px solid #e4e4e4;display:none;text-align:center;overflow: hidden;}
+.bigimg{width:800px;height:800px;}
+.jqZoomPup{z-index:10;visibility:hidden;position:absolute;top:0px;left:0px;width:50px;height:50px;border:1px solid #aaa;background:#FEDE4F 50% top no-repeat;opacity:0.5;-moz-opacity:0.5;-khtml-opacity:0.5;filter:alpha(Opacity=50);cursor:move;}
+#spec-list{ position:relative; width:330px;}
+/*#spec-list div{ margin-top:0;margin-left:-30px; *margin-left:0;}*/

@@ -1,0 +1,41 @@
+.recommend-top{background: url(../img/bg.jpg);background-repeat:repeat-x;background-position:center;margin: 0 auto 20px;}
+.recommend-top div{background: #fff;padding: 0 20px;width: 300px;margin: 0 auto;}
+.recommend-top h1{border: 3px solid #eeab8f;margin: 0 auto;background: #eeab8f;}
+.recommend-top p{font: 26px/52px "微软雅黑";color: #fff;border: 2px solid #fff;text-align: center;margin: 0;}
+.recommend-bottom{position: relative;margin: 50px auto 20px;}
+.recommend-bottom li:first-child,.recommend-bottom li:first-child+li+li+li+li{padding-right: 20px;}
+.recommend-bottom li:first-child+li+li,.recommend-bottom li:first-child+li+li+li{padding-left: 20px;}
+.recommend-bottom li:first-child+li{margin-top: 12%;}
+.recommend-bottom li:first-child+li+li+li+li{position: absolute;top: 440px;}
+.recommend p a{display: block;background: #eeab8f;font: 16px/40px "微软雅黑";color: #fff;background: #eeab8f;padding: 0 15px;margin-bottom: 30px;}
+.recommend p a span{color: #be0120;}
+.recommend img{width: 100%;}
+.recommend-list>ul>li{padding: 0 10px;margin: 50px 0 30px;}
+
+
+.mob-coat{background: url(../img/bg.jpg);background-repeat:repeat-x;background-position:center;margin: 50px auto 30px;}
+.mob-coat div{background: #fff;padding: 0 20px;width: 220px;margin: 0 auto;}
+.mob-coat h1{border: 3px solid #eeab8f;margin: 0 auto;background: #eeab8f;}
+.mob-coat p{font: 24px/42px "微软雅黑";color: #fff;border: 2px solid #fff;text-align: center;margin: 0;}
+
+.coat-left{padding-right: 3%;}
+.coat-right{padding-left: 3%;}
+.recommend .coat-left p a,.recommend .coat-right p a,.recommend .coat-bottom p a{font: 20px/40px "微软雅黑";color: #003a89;}
+.recommend .coat-bottom p a{padding:0 30px;}
+
+@media screen and (max-width: 1199px){
+	.recommend-bottom li:first-child+li+li+li+li{top: 373px;}
+}
+
+@media screen and (max-width: 992px) {
+	.recommend p a{font-size: 14px;}
+	.recommend .recommend-list p a{font-size: 12px;}
+	.recommend-bottom li:first-child+li+li+li+li{top: 300px;}
+}
+
+@media screen and (max-width: 767px) {
+	.recommend .coat-left p a,.recommend .coat-right p a,.recommend .coat-bottom p a{font: 12px/32px "微软雅黑";color: #003a89;}
+	.mob-coat{padding: 0;margin-left: 10px;margin-right: 10px;}
+	.mob-coat div{padding: 0 10px;}
+}
+

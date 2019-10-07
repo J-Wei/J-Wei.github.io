@@ -1,0 +1,39 @@
+.core li{height: 404px;}
+.effect{border-bottom: 1px solid #8c8c8c;padding-bottom: 14px;}
+.effect h1 a{display: block;font: 24px/50px "微软雅黑";color: #eeab8f;margin-top: 50px;background-color: #f7f6f6;text-align: center;}
+.effect p{font: 16px/28px "微软雅黑";color: #b4b4b4;margin-top: 10px;}
+.effect a,.effect span{font: 18px/18px "微软雅黑";color: #b4b4b4;margin-top: 15px;}
+.effect-left{padding: 0 0 0 15px;}
+.effect:hover h1 a{color: #f7f6f6;background-color: #eeab8f;}
+.effect:hover p,.effect:hover span{color: #282828;}
+.effect:hover a{color: #eeab8f;}
+.search-line{padding-bottom: 10px;}
+.pagination{margin-top: 50px;}
+
+
+@media screen and (max-width: 1199px){
+	.core>li{padding-right: 0;}
+	.effect p{font: 14px/24px "微软雅黑";color: #b4b4b4;margin: 0;}
+	.effect a,.effect span{font: 14px/14px "微软雅黑";margin-top: 10px;}
+	.core>li:first-child+li .effect-left a,.core>li:first-child+li+li+li .effect-left a,.core>li:first-child+li .effect-left span,.core>li:first-child+li+li+li .effect-left span{margin-top: 34px;}
+}
+@media screen and (max-width: 991px){
+	.core li{height: 300px;}
+	.core>li{padding: 0;}
+	.search-line{padding: 20px 0 10px;}
+	.effect h1 a{font: 22px/48px "微软雅黑";margin-top: 0;}
+	.effect p{font: 12px/20px "微软雅黑";color: #b4b4b4;margin: 0;}
+	.effect a,.effect span{font: 12px/12px "微软雅黑";margin-top: 10px;}
+	.core>li:first-child+li,.core>li:first-child+li+li+li{padding-left: 10px;}
+	.core>li:first-child+li .effect-left a,.core>li:first-child+li+li+li .effect-left a,.core>li:first-child+li .effect-left span,.core>li:first-child+li+li+li .effect-left span{margin-top: 10px;}
+}
+@media screen and (max-width: 767px){
+	.container ol,.core{padding: 0 10px;}
+	.effect h1 a{font: 18px/40px "微软雅黑";margin-top: 30px;color: #f7f6f6;background-color: #eeab8f;}
+	.core .effect>div{padding: 0 10px;}
+	.effect p{font: 16px/32px "微软雅黑";color: #282828;margin-top: 10px;}
+	.effect a,.effect span{font: 18px/40px "微软雅黑";color: #282828;margin-top: 10px;}
+	.effect a{color: #eeab8f;}
+	.pagination{margin: 50px 0 0;}
+}
+

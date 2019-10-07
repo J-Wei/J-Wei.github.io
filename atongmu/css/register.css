@@ -1,0 +1,44 @@
+.core{margin-top: 30px;}
+.core img{display: inline-block;}
+.core h1{font: 30px/90px "微软雅黑";color: #eeab8f;margin: 0;text-align: center;}
+.core li{border: 2px solid #eeab8f;margin-bottom: 38px;}
+.core li label{font: 20px/56px "微软雅黑";color: #282828;text-indent: 1.5em;width: 34%;margin: 0;}
+.core li input{font: 20px "微软雅黑";color: #bebebe;border: none;width: 40%;padding: 14px 0;}
+.core li a{display: inline-block;font: 20px/40px "微软雅黑";color: #eeab8f;background: #f7f6f6;margin: 8px 0;width: 23%;text-align: center;}
+.core p{font: 16px/20px "微软雅黑";color: #2c2c2c;display: inline;margin: 0;margin-left: 70px;}
+.core div input[type="submit"]{width: 100%;font: 30px/60px "微软雅黑";color: #fefefe;background: #00448d;border: none;margin-top: 28px;}
+
+
+
+@media screen and (max-width: 1199px){
+	.core li{margin-bottom: 25px;}
+	.core li label,.core li input{font: 16px/50px "微软雅黑";}
+	.core p{font: 14px/20px "微软雅黑";}
+	.core div input[type="submit"]{font: 24px/50px "微软雅黑";}
+	.core li a{font: 16px/38px "微软雅黑";;margin: 5px 0;}
+}
+@media screen and (max-width: 991px){
+	.core li{margin-bottom: 20px;}
+	.core li label{font: 16px/36px "微软雅黑";width: 30%;text-indent: 1em;}
+	.core li input{font: 16px/36px "微软雅黑";width: 40%;}
+	.core li a{font: 14px/24px "微软雅黑";;margin: 3px 0;}
+	.core p{font: 14px/20px "微软雅黑";margin-left: 30px;}
+	.core div input[type="submit"]{margin-top: 20px;}
+}
+@media screen and (max-width: 767px){
+	.core .registry{padding: 0;}
+	.core{padding: 0 10px;}
+	.core li{margin-bottom: 30px;}
+	.core h1{font: 24px/36px "微软雅黑";color: #fff;background: #eeab8f;margin: 50px 0 30px;}
+	.core li label{font: 14px/32px "微软雅黑";width: 40%;text-indent: 1em;}
+	.core li input{font: 14px/32px "微软雅黑";width: 55%;}
+	.core p{font: 14px/20px "微软雅黑";margin-left: 0;}
+	.core div [type=button]{width: 40%;font: 14px/32px "微软雅黑";color: #eeab8f;background: #f7f6f6;border: none;margin-bottom: 30px;}
+	.core div input[type="submit"]{width: 90%;margin-top: 30px;}
+}
+
+
+
+
+
+

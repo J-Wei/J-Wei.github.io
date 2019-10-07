@@ -1,0 +1,19 @@
+.core h1{font: 30px/80px "微软雅黑";color: #f7f6f6;background: #eeab8f;text-align: center;padding: 0 35px;margin-top: 30px;}
+.core h1 span{font: 20px/20px "微软雅黑";margin-top: 50px;}
+.core p{font: 20px/36px "微软雅黑";color: #282828;text-indent: 2em;margin-top: 40px;}
+.core img{margin-top: 40px;width: 100%;}
+.core h2{font: 24px/80px "微软雅黑";margin:0;padding: 0 20px;color: #282828;}
+
+@media screen and (max-width: 1199px){
+	.core p{margin: 0;text-indent: 0;padding:0 40px;}
+}
+
+
+@media screen and (max-width: 767px){
+	.container ol,.core{padding: 0 10px;}
+	.core h1{padding: 0;font: 18px/36px "微软雅黑";}
+	.core p{font: 16px/30px "微软雅黑";padding: 0;text-indent: 2em;margin-top: 20px;}
+	.core img{margin-top: 30px;}
+	.pager{margin-top:20px ;padding: 0 10px;}
+	.pager li a{font: 18px/36px "微软雅黑";}
+}

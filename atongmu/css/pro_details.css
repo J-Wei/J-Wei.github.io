@@ -1,0 +1,84 @@
+h2{font: 24px/50px "微软雅黑";text-align: center;color: #f7f6f6;margin:0 0 1px 0;background-color: #eeab8f;}
+#sideMenu .hd{cursor:pointer;}
+#sideMenu .hd h3{font: 20px/50px "微软雅黑";color: #f7f6f6;margin:0 0 1px 0;padding:0 20px;background:url(../img/product3.png) no-repeat;background-position: 90% center;background-color: #eeab8f;}
+#sideMenu .on{}
+#sideMenu .on h3{font: 20px/50px "微软雅黑";color: #e42626;margin:0 0 1px 0;padding:0 20px;background:url(../img/product4.png) no-repeat;background-position: 90% center;background-color: #eeab8f;}
+#sideMenu .bd{display:none;background: #ebebeb;border: 1px solid #d9d9d9;padding: 10px 0 5px;margin-bottom: 1px;}
+#sideMenu .bd li{text-align: center;}
+#sideMenu .bd a{font: 16px/44px "微软雅黑";color: #e8926e;}
+#sideMenu .bd a:hover{color: #e42626;}
+
+.pro-order{padding-left: 20px;}
+.pro-order h6{font: 24px/56px "微软雅黑";color: #282828;margin: 0;}
+.pro-order .present-price{font: 24px/76px "微软雅黑";color: #be0120;}
+.pro-order .original-price{font: 20px/72px "微软雅黑";color: #d4d4d4;text-decoration:line-through;}
+.pro-order ul li{font: 20px/54px "微软雅黑";color: #282828;}
+.pro-order .reduce,.pro-order .add{font: 24px/30px "微软雅黑";color: #fff;background: #eeab8f;padding: 0 5px;cursor: pointer;}
+.pro-order .count-input{font: 24px/28px "微软雅黑";color: #282828;border:1px solid #eeab8f;width: 100px;margin: 0 5px;text-align: center;}
+.pro-order .purchase a,.pro-order .collection a{display: block;font: 24px/50px "微软雅黑";color: #fff;background: #eeab8f;border-radius: 25px;behavior:url(ie-css3.htc);text-align: center;width: 70%;margin-top: 116px;}
+.pro-order .collection a{color: #eeab8f;background: #ebebeb;}
+
+
+.other-commodities img{margin: 40px 0;}
+.core>.col-md-10{padding-left: 30px;}
+.other-commodities h1{font: 24px/24px "微软雅黑";color: #eeab8f;margin-top:100px ;text-align: center;}
+
+@media screen and (max-width: 1199px){
+	.pro-order h6{font: 20px/48px "微软雅黑";color: #282828;margin: 0;}
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 991px){
+	.core>.col-md-10{padding-left: 20px;}
+	#sideMenu .hd h3{font: 16px/40px "微软雅黑";background-size: 20px;}
+	#sideMenu .bd a{font: 16px/40px "微软雅黑";color: #e8926e;}
+	.big-pic img{width: 295px;height: 295px;}
+	.sm-pic-box{margin-top: 20px;}
+	.small-pic{height: 66px;float: left;width: 243px;overflow: hidden;position: relative;}
+	.small-pic ul{float: left;height: 66px;margin: 0;width: 1000px;position: absolute;left: 0px;}
+	.small-pic ul li{float: left;width: 81px;height: 66px;}
+	.small-pic ul li img{width: 66px;height: 66px;margin-left: 8px;}
+	.small-pic ul li .on{border: 1px solid #E42626;padding: 1px;width: 62px;height: 62px;}
+	#left-move,#right-move{float: left;width: 26px;}
+	#left-move img,#right-move img{width: 100%;margin-top: 12px;}
+	.pro-order h6{font: 16px/50px "微软雅黑";}
+	.pro-order .present-price{font: 16px/52px "微软雅黑";}
+	.pro-order .original-price{font: 14px/56px "微软雅黑";}
+	.pro-order ul li{font: 16px/40px "微软雅黑";}
+	.pro-order .reduce,.pro-order .add{font: 20px/24px "微软雅黑";}
+	.pro-order .count-input{font: 20px/26px "微软雅黑";}
+	.pro-order .purchase a,.pro-order .collection a{font: 16px/32px "微软雅黑";margin-top: 86px;}
+}
+
+
+@media screen and (max-width: 767px){
+	.core{padding: 0 10px;}
+	.core>.col-md-10{padding-left: 0px;}
+	.mob-core h6{font: 16px/50px "微软雅黑";text-align: center;}
+	.mob-core>div{position: relative;}
+	.mob-core>div>ul>li{display: none;}
+	.mob-core>div>ul>li:first-child{display: inline-block;}
+	#leftShift,#rightShift{display: inline-block;width: 10%;position:absolute;top: 35%;}
+	.mob-core>div>ul>li>img{width: 100%;}
+	#leftShift{left: 0;}
+	#rightShift{right: 0;}
+	#count{font: 14px "微软雅黑";position:absolute;right: 20px;bottom: 20px;}
+	.mob-core>ul>li,.mob-core>ul>li b{font: 16px/36px "微软雅黑";}
+	.mob-core>ul>li:first-child+li{color: #d4d4d4;font-size: 12px;text-decoration:line-through;}
+	.mob-core>ul>li b{color: #be0120;}
+	.mob-core>form>div span{font: 16px/36px "微软雅黑";}
+	.mob-core>form>div .reduce,.mob-core>form>div .add{color: #fff;background: #eeab8f;padding: 0 5px;}
+	.mob-core>form>div .count-input{font: 15px/15px "微软雅黑";width: 60px;text-align: center;border:1px solid #eeab8f;margin: 0 10px;}
+	.mob-core>form>div>a{font: 16px/28px "微软雅黑";display: block;width: 75%;margin: 50px auto;text-align: center;color: #be0120;background: #e6e6e6;border-radius: 14px;}
+	.mob-core>form>.purchase>a{background: #eeab8f;}
+	.other-commodities h1{font: 20px/20px "微软雅黑";color: #eeab8f;margin-top:0 ;text-align: center;}
+}
+
+

@@ -1,0 +1,31 @@
+.core{margin-top: 25px;}
+.core form input{display: block;background: none;border: 2px solid #eeab8f;font: 18px/18px "微软雅黑";color: #eeab8f;margin-bottom: 30px;width: 100%;padding: 12px 10px;}
+.core form textarea{padding:5px;font: 18px/35px "微软雅黑 Regular";color: #eeab8f;display: block;background: none;border: 2px solid #eeab8f;margin-bottom: 30px;width: 100%;}
+h1,h2{font: 24px/24px "微软雅黑 Regular";color: #eeab8f;margin: 28px 0;}
+h2{margin: 28px 0 14px;}
+.leave-word{padding-right: 30px;}
+.verification-code img{width: 100%;}
+.verification-code div:first-child+div{padding: 0 25px;}
+.verification-code div:first-child+div a{display: block;border: 2px solid #b6b6b6;height: 50px;background: url(../img/contact_us1.jpg) no-repeat;background-position: center center;background-size: 90% 90%;}
+.verification-code div:first-child+div+div a{display: block;text-align: center;font: 18px/50px "微软雅黑 Regular";color: #f7f6f6;background: #eeab8f;}
+.confirm a{display: block;font: 18px/50px "微软雅黑 Regular";color: #f54336;background: #eeab8f;text-align: center;margin: 20px 0;}
+.core p{font: 18px/40px "微软雅黑";color: #eeab8f;}
+
+#dituContent{width: 100%;height: 400px;}
+
+
+@media screen and (max-width: 991px){
+	.verification-code div:first-child+div{padding:0 10px}
+	.leave-word{padding-right: 15px;padding-left: 0;}
+	#dituContent{height: 360px;margin-top: 20px;}
+}
+@media screen and (max-width: 767px){
+	.core{padding: 0 10px;}
+	.leave-word{padding: 0;}
+	.breadcrumb > li>a,.breadcrumb > li{font-size: 24px;}
+	.core h1{font-size: 24px;margin-top: 0;}
+	.verification-code div:first-child+div+div a{font-size: 14px;}
+	.confirm a{margin: 0;font: 18px/40px "微软雅黑";}
+	.core p{font: 14px/36px "微软雅黑";}
+	#dituContent{height: 200px;}
+}

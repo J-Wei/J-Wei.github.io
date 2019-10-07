@@ -1,0 +1,36 @@
+.core{margin-top: 90px;}
+.core>div:first-child{border: 1px solid #b4b4b4;}
+.core>div h1{font: 24px/110px "微软雅黑";color: #be0120;margin: 0;}
+.core>div p{font: 16px/90px "微软雅黑";color: #aaa;margin: 0;}
+.core>div .failure-img{padding: 26px 0;}
+.core>div img{width: 75%;}
+.core .see{padding: 0 15px 0 20px;}
+.core .return{padding: 0 20px 0 15px;}
+.core .see a,.core .return a{display: block;font: 20px/40px "微软雅黑";color: #fff;background: #eeab8f;text-align: center;margin-top: 50px;}
+.core .return a{color: #eeab8f;background: #ebebeb;}
+
+@media screen and (max-width: 1199px){
+	.core>div h1{font: 20px/100px "微软雅黑";}
+	.core>div p{font: 14px/74px "微软雅黑";}
+}
+@media screen and (max-width: 991px){
+	.core>div h1{font: 20px/80px "微软雅黑";}
+	.core>div p{font: 14px/50px "微软雅黑";}
+	.core .see a,.core .return a{font: 16px/32px "微软雅黑";}
+	.core .see,.core .return{padding: 0;}
+	.core,.footer{margin-top: 80px;}
+}
+@media screen and (max-width: 767px) {
+	.mob-header a{font: 18px/20px "微软雅黑";color: #282828;}
+	.breadcrumb{padding: 0 15px;}
+	.dropdown-menu{width: 180px;min-width: 80px;position:absolute;right: 0;border: 1px solid #b4b4b4;border-radius:20%;}
+	.dropdown-menu li{width: 50%;}
+	.dropdown-menu li a{color: #000;font: 18px/40px "微软雅黑";padding: 0;}
+	.core{padding:0 10px;}
+	.core>div .failure-img{padding: 18px 0;}
+	.core>div img{width: 82%;margin: 0 auto;}
+	.core>div h1{font: 14px/46px "微软雅黑";}
+	.core>div p{font: 12px/22px "微软雅黑";}
+	.core .see a,.core .return a{margin-top: 30px;}
+	.footer{margin-top: 30px;}
+}
