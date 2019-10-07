@@ -1,0 +1,6 @@
+article>img{width: 100%;margin: .8rem 0 1.1rem;}
+.text{margin-bottom: 3.2rem;}
+.text h4{text-align: left;font: 1.4rem/2.4rem "黑体";color: #383431;}
+.text h4 span{color: #960018;}
+.text p{text-align: left;font: 1.2rem/2.3rem "黑体";color: #6b6663;}
+.text h4:first-child+p{text-indent: 2rem;line-height: 1.6rem;}

@@ -1,0 +1,25 @@
+.position{margin: 2.4rem 0;}
+/*.contact{margin-left: 4.6rem;}*/
+.contact h2{font: 1.5rem/1.5rem "黑体";color: #020202;margin-bottom: 1.3rem;}
+.contact h3{font: 1.4rem/3.1rem "黑体";color: #010101;text-align: left;margin-left: 4.6rem;}
+.contact p{font: 1.2rem/2.7rem "黑体";color: #383431;text-align: left;margin-left: 4.6rem;}
+.message{margin: 0 7%;}
+.message h4{font: 1.5rem/5rem "黑体";color: #020202;}
+.message .form_top{border-bottom: 1px solid #9b9b9b;padding-bottom: .9rem;}
+.message .form_top img{float: left;margin-right: .7rem;width: 1rem;height: 1rem;}
+.message .form_top p{font: 1.2rem/1.2rem "黑体";color: #c31a18;text-align: left;}
+.massage form{width: 100%;}
+.form_left{float: left;width: 44.54%;}
+.form_left label,.form_right label{font: 1.2rem/2.6rem "黑体";text-align: left;color: #666;display: block;}
+.form_left input,.form_right input{width: 93%;height: 1.5rem;border: 2px solid #ccc;border-radius: 3px;padding: 3%;font: 1.2rem/1.5rem "黑体";color: #000;}
+.form_right{float: right;width: 44.54%;}
+.form_content{text-align: left; margin-bottom:0.65rem ;}
+.form_content label{font: 1.2rem/2.1rem "黑体";color: #666;}
+.form_content textarea{width: 93%;height: 8.3rem;border: 2px solid #ccc;padding: 3%;font: 1.2rem/1.5rem "黑体";color: #000;border-radius: 3px;}
+.message form>label{font: 1.2rem "黑体";color: #ff0000;}
+.message form>input[type="text"]{width: 3.3rem;height: 1.3rem;border: 2px solid #ccc;font: 1.2rem/1.3rem "黑体";color: #000;padding: 0 5px;}
+.message form>a>img{display: inline-block;width: 3.3rem;height: 1.25rem;}
+.message form>a>span{font: 1.2rem "黑体";color: #ff0000;}
+.message form>input[type="submit"]{display: block;width:12.5rem;height: 1.75rem;border-radius: 3px;border: none;font: 1.2rem/1.75rem "黑体";color: #fff;background: #ff0000;margin: .8rem auto;}
+h6{font: 1.5rem/6.5rem "黑体";color: #050505;}
+.map{width: 98%;height: 15.4rem;margin:0 auto 4rem;}

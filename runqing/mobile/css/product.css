@@ -1,0 +1,7 @@
+.product_list{margin-bottom: 4rem;}
+.product_list li{margin-top: 2.3rem;width: 47%;position: relative;}
+.product_list li:nth-child(even){float: right;}
+.product_list li:nth-child(odd){float: left;}
+.product_list li img{width: 100%;}
+.product_list li .text{position: absolute;left:0;bottom: 0;width:100%;font:.95rem/2.2rem "微软雅黑";color:#fdfdfb;text-align: center;background: #db7674;opacity: 0.5;}
+

@@ -1,0 +1,18 @@
+.banner{margin: 0 auto;}
+.banner img{width: 100%;}
+article{margin: 0 1.4rem;}
+section{text-align: center;}
+.top_nav li{float: left;margin: 2rem 0 1.3rem;}
+.top_nav li a{font: 1.2rem/1.4rem "黑体";color: #020202;}
+.top_nav li:first-child{border-bottom: 1px solid #960018;margin-left: 0;}
+.top_nav li:first-child+li{margin: 2rem 18% 1.3rem;}
+.top_nav li:first-child a{color: #960018;}
+.position{border-bottom: 1px solid #960018;}
+.position img{float: right;width: 1.2rem;}
+.position p{float: right;font: 1.2rem/1.7rem "黑体";color: #030303;}
+.position p a{font: 1.2rem/1.7rem "黑体";color: #030303;}
+.position p span{font: 1.2rem/1.7rem "黑体";color: #960018;}
+
+.page{margin: 3.1rem 0;}
+.page a{display: block;font: 1.2rem/2.6rem "黑体";color: #960018;text-align: left;}
+.page a:last-child{color: #333;}

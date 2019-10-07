@@ -1,0 +1,42 @@
+.banner{width:100%;margin:0 auto;overflow: hidden;position: relative;}
+.pic{position:relative;}
+.pic li{float:left;}
+.pic li>a img{width:100%;display: block;}
+.banner .prev,.banner .next_banner{display: block;width:3.5rem;height:5.1rem;opacity:0.5;cursor:pointer; position:absolute;top: 35%;}
+.banner .next_banner{background: url(../img/banner_right.png);right: 5%;background-size:100% 100%;}
+.banner .prev{background: url(../img/banner_left.png);left: 5%;background-size:100% 100%;}
+
+section{text-align: center;}
+.subject{margin: 1.5rem 0 .5rem;display: inline-block;}
+.subject .letter{float: left;font: 3.5rem/3.5rem tahoma;color: #383431;}
+.subject .word{float: left;}
+.subject .word h2{font: 1.5rem/1.5rem "黑体";color: #383431;text-align: center;margin: .5rem 0 .4rem;}
+.subject .word h3{font: .7rem/.7rem "黑体";color: #010101;text-align: center;}
+.profile a img{width: 74%;height: 17rem;margin: 0 auto;margin-bottom: 1.2rem;}
+.profile .introduce{margin: 0 5rem;}
+.profile .introduce p{text-align:left;text-indent: 1.5rem;}
+.profile .introduce p b{font: 1.2rem/2.3rem "黑体";color: #2e2b2b;}
+.profile .introduce a{float: right;margin-right: .5rem;font: 1.2rem '黑体';color: #c31a18;}
+/*.news{text-align: center;}*/
+.news .news_img{width: 74%;margin: .8rem auto;}
+.news .news_img img{width: 100%;}
+.list li:nth-child(odd) .present_odd{margin-left: 7.5%;margin-right: 10.78%;margin-bottom: 2rem;}
+.list li:nth-child(odd) .present_odd img{width: 4.6%;float: left;margin-top: 2.2rem;}
+.list li:nth-child(odd) .present_odd .present{float: left;width: 95.4%;background: #f5e5e9;padding-top: .8rem;}
+.present h2{font:1.4rem "黑体";color: #2e2b2b;}
+.present h3{margin-left: 6.5rem;font: 1.3rem/2rem "黑体";color: #4a4540;}
+.present p{font:1.2rem/1.6rem "黑体";color: #85827e;text-align:left;text-indent: 1.5rem;margin: 0 .5rem;}
+.present p a{float: right;font:1.2rem "微软雅黑";color: #c31a18;margin-top: .7rem;}
+.list li:nth-child(even) .present_even{margin-right: 2rem;}
+.list li:nth-child(even) .present_even img{width: 1.2rem;float: right;margin-top: 2.2rem;}
+.list li:nth-child(even) .present_even .present{float: right;width: 83.33%;background: #f5e5e9;padding-top: .8rem;}
+
+.product{margin-bottom: 3.8rem;}
+#holder{height:5.35rem;display:none;padding-left: 5%;}
+.pro_img{float: left;margin:auto 0.66%;width: 32%;height: 5.35rem;}
+.simple_slider_hover{cursor: pointer; cursor: hand;}
+.simple_slider_disabled{opacity : 0.2; filter: alpha(opacity=20); zoom: 1; }
+#imgbox{float:left;margin: 0 1.9%;text-align: center;width: 76%;}
+#leftnav{float:left;cursor:pointer;margin-top: 1.2rem;width: 6%;}
+#rightnav{float:left;cursor:pointer;margin-top: 1.2rem;width: 6%;}
+
