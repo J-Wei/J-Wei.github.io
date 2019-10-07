@@ -1,0 +1,9 @@
+.center{border-top: 1px solid #999;}
+.center>div{border: 1px solid #999;margin-top: 50px;padding: 115px 0 110px 450px;}
+.center>div>div{float: left;}
+.center>div>div>img{margin-top: 4px;margin-right: 88px;}
+.center>div>div>h1{font: 24px/24px "微软雅黑";color: #333;margin-bottom: 36px;}
+.center>div>div>p{font: 14px/14px "微软雅黑";color: #333;margin-bottom: 34px;}
+.center>div>div>p>span{color: #F41909;}
+.center>div>div>div>a{display: inline-block;width: 80px;font: 14px/30px "微软雅黑";color: #fff;background: #091C71;margin-left: 24px;text-align: center;}
+.center>div>div>div>a:first-child{margin-left: 0;}

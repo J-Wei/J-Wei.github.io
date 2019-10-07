@@ -1,0 +1,52 @@
+.center>.left{float: left;}
+.center>.left>h1{font: 12px/34px "微软雅黑";margin-top: 24px;margin-left: 8px;}
+.center>.left>ul{float: left;width: 218px;padding-left: 20px;border: 1px solid #999;padding-bottom: 15px;}
+.center>.left>ul>li{margin-top: 10px;}
+.center>.left>ul>li>h2{font: 14px/36px "微软雅黑";color: #333;font-weight: bold;}
+.center>.left>ul>li>a{display: block;font: 12px/30px "微软雅黑";}
+.center>div>ul>li>a:hover,.center>div>ul>li:first-child+li>h2+a+a{color: #F41909;}
+.center>.right{float: right;width: 924px;}
+.center>.right>h1{font: 16px/24px "微软雅黑";margin-top: 80px;margin-bottom: 18px;}
+.center>.right>h1>a{display: inline-block;font: 12px/24px "微软雅黑";color: #fff;background: #F41909;float: right;width: 80px;text-align: center;}
+.center>.right>div{border: 1px solid #999;}
+.center>.right>div>p{float: left;font: 14px/42px "微软雅黑";font-weight: bold;margin-left: 100px;}
+.center>.right>div>p:first-child{margin-left: 45px;}
+.center>.right>ul>li{border: 1px solid #999;border-top: none;}
+.center>.right>ul>li>p{float: left;font: 14px/98px  "微软雅黑";color: #333;}
+.center>.right>ul>li>p:first-child{margin-left: 56px;}
+.center>.right>ul>li>p:first-child+p{margin-left: 80px;}
+.center>.right>ul>li>div{float: left;}
+.center>.right>ul>li>.address{padding-top: 26px;width: 140px;margin-left: 18px;}
+.center>.right>ul>li>.address>p{font: 14px/24px  "微软雅黑";color: #333;}
+.center>.right>ul>li>p:first-child+p+div+p{margin-left: 48px;}
+.center>.right>ul>li>p:first-child+p+div+p+p{margin-left: 70px;}
+.center>.right>ul>li>.operation{padding-top: 26px;margin-left: 70px;}
+.center>.right>ul>li>.operation>a{display: block;font: 14px/24px  "微软雅黑";}
+.center>.right>ul>li>.operation>a:hover{color: #F41909;}
+.center>.right>.page{border: none;text-align: right;margin-top: 40px;}
+.center>.right>.page>a{display: inline-block;margin-left: 12px;border: 1px solid #dfdfdf;font: 12px/22px "微软雅黑";padding: 0 10px;}
+.center>.right>.page>a:hover,.center>.right>.page>a:first-child+a{border-color: #F41909;color: #fff;background: #F41909;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

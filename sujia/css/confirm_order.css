@@ -1,0 +1,71 @@
+.center>.location{margin-top: 20px;margin-left: 645px;}
+.center>.location>li{float: left;width: 148px;border-top: 5px solid #999;font: 12px/46px "微软雅黑";text-align: center;background: url(../img/shop_cart2.png) no-repeat center 0;}
+.center>.location>li:first-child+li{border-color: #666;background-image: url(../img/shop_cart1.png);}
+.center>.address{border: 1px solid #999;margin-top: 50px;}
+.center>.address>h1{border-bottom: 1px solid #999;font: 14px/44px "微软雅黑";color: #333;padding-left: 25px;}
+.center>.address>div{padding: 15px 0 10px;}
+.center>.address>div>ul{float: left;}
+.center>.address>div>ul>li{float: left;margin-left: 15px;}
+.center>.address>div>ul>li>div{border: 1px dashed #999;width: 254px;padding: 0 8px;cursor: pointer;}
+.center>.address>div>ul>li>div>p{font: 12px/32px "微软雅黑";color: #333;padding-top: 12px;border-top: 1px dashed #999;}
+.center>.address>div>ul>li>div>p:first-child{border-top: none;}
+.center>.address>div>ul>li>div>p>img{margin-bottom: -2px;margin-right: 5px;}
+.center>.address>div>ul>li>p{height: 15px;margin-top: 8px;background: url(../img/confirm_order5.png) no-repeat 250px center;}
+.center>.address>div>ul>.on>p{height: 15px;margin-top: 8px;background: url(../img/confirm_order4.png) no-repeat 250px center;}
+.center>.address>div>div{float: left;width: 80px;margin: 45px 0 0 100px;text-align: center;cursor: pointer;}
+.center>.address>div>div>p{font: 14px/14px "微软雅黑";color: #808080;}
+.center>.address>div>div>img{margin: 10px 0;}
+.center>.list-head{border: 1px solid #999;margin-top: 45px;}
+.center>.list-head>p{float: left;font: 14px/36px "微软雅黑";color: #333;margin-left: 125px;}
+.center>.list-head>p:first-child{font-weight: bold;margin-left: 56px;margin-right: 345px;}
+.center>.list-head>p:first-child+p+p{margin-left: 145px;margin-right: 45px;}
+.center>.list>li{border: 1px solid #999;border-top: none;}
+.center>.list>li>div{float: left;}
+.center>.list>li>.name>a>img{float: left;margin: 18px 10px 14px 57px;}
+.center>.list>li>.name>div{float: left;}
+.center>.list>li>.name>div>h3{font: 14px/14px "微软雅黑";margin-top: 20px;color: #333;}
+.center>.list>li>.name>div>p{font: 14px/14px "微软雅黑";margin-top: 24px;color: #666;}
+.center>.list>li>.price{margin-left: 350px;padding-top: 15px;}
+.center>.list>li>.price>p{font: 14px/22px "微软雅黑";color: #333;}
+.center>.list>li>.price>p:first-child+p{text-decoration: line-through;color: #999;}
+.center>.list>li>.num{font: 14px/14px "微软雅黑";color: #333;margin-left: 130px;padding-top: 30px;}
+.center>.list>li>.subtotal{font: 14px/14px "微软雅黑";color: #F41909;margin-left: 165px;padding-top: 24px;}
+.center>.list>li>.operate{margin-left: 110px;padding-top: 20px;}
+.center>.list>li>.operate>a{font: 14px/18px "微软雅黑";color: #777;}
+.center>.list>li>.operate>p{font: 14px/18px "微软雅黑";color: #777;cursor: pointer;}
+.center>.list>li>.operate>a:hover,.center>.list>li>.operate>p:hover{color: #F41909;}
+.center>.submit>form>.order-infor{padding-top: 14px;}
+.center>.submit>form>div>div>p{width: 110px;text-align: right;float: left;font: 14px/42px "微软雅黑";color: #666;}
+.center>.submit>form>.order-infor>.invoice>span,.center>.submit>form>.order-infor>.invoice>label{font: 14px/42px "微软雅黑";color: #666;}
+.center>.submit>form>.order-infor>.invoice>label{cursor: pointer;}
+.center>.submit>form>.order-infor>.invoice>label>span{display: inline-block;width: 12px;height: 12px;margin-bottom: -2px;margin-right: 8px;border: 1px solid #898989;margin-left: 15px;}
+.center>.submit>form>.order-infor>.invoice>.on>span{background: url(../img/confirm_order7.png) no-repeat center center;}
+.center>.submit>form>.order-infor>.invoice>input[type=radio]{display: none;}
+.center>.submit>form>.order-infor>.invoice>input[type=text]{margin-left: 12px;border: 1px solid #999;padding-left: 5px;}
+.center>.submit>form>.order-infor>div>select{width: 110px;font: 12px/20px "微软雅黑";margin-top: 12px;background: url(../img/confirm_order2.jpg) no-repeat right;border:1px solid #6587a3;}
+.center>.submit>form>.order-infor>div>select[name=discount]{width: 126px;}
+.center>.submit>form>.order-infor>div>textarea{margin-top: 12px;width: 336px;padding: 5px;font: 14px/24px "微软雅黑";color: #333;}
+.center>.submit>form>.submit{margin-top: 40px;text-align: right;}
+.center>.submit>form>.submit>p{font: 14px/28px "微软雅黑";color: #777;text-align: right;}
+.center>.submit>form>.submit>p>span{display: inline-block;width: 65px;text-align: left;color: #F41909;font-size: 16px;}
+.center>.submit>form>.submit>a{display: inline-block;width: 120px;font: 16px/36px "微软雅黑";color: #fff;background: #F41909;border: none;margin-top: 20px;text-align: center;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

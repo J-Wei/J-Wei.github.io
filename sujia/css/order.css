@@ -1,0 +1,54 @@
+.center>.left{float: left;}
+.center>.left>h1{font: 12px/34px "微软雅黑";margin-top: 24px;margin-left: 8px;}
+.center>.left>ul{float: left;width: 218px;padding-left: 20px;border: 1px solid #999;padding-bottom: 15px;}
+.center>.left>ul>li{margin-top: 10px;}
+.center>.left>ul>li>h2{font: 14px/36px "微软雅黑";color: #333;font-weight: bold;}
+.center>.left>ul>li>a{display: block;font: 12px/30px "微软雅黑";}
+.center>div>ul>li>a:hover,.center>div>ul>li:first-child>h2+a+a{color: #F41909;}
+.center>.right{float: right;}
+.center>.right>h1{width: 915px;padding-left: 8px;border: 1px solid #999;margin-top: 22px;font: 16px/36px "微软雅黑";}
+.center>.right>div>ul{float: left;}
+.center>.right>div>ul>li{float: left;font: 16px/96px "微软雅黑";margin-right: 20px;}
+.center>.right>div>ul>li>a:hover,.center>.right>div>p>a:hover,.center>.right>div>ul>li:first-child>a{color: #F41909;}
+.center>.right>div>p{float: left;font: 12px/96px "微软雅黑";margin-left: 38px;}
+.center>.right>div>p>a{color: #666;}
+.center>.right>div>div{float: right;margin-top: 36px;}
+.center>.right>div>div>form>input{float: left;width: 180px;font: 12px "微软雅黑";border: 1px solid #F41909;color: #666;padding:3px;}
+.center>.right>div>div>form>input[type=submit]{width: 42px;color: #fff;background: #F41909;cursor: pointer;padding: 3px;}
+.center>.right>h2{padding-left: 88px;border: 1px solid #999;}
+.center>.right>h2>p{float: left;font: 14px/36px "微软雅黑";color: #333;margin-left: 113px;font-weight: bold;}
+.center>.right>h2>p:first-child{margin-left: 0;}
+.center>.right>h2>p:first-child+p{margin-left: 325px;}
+.center>.right>h2>p:first-child+p+p{margin-left: 90px;}
+.center>.right>ul>li{border: 1px solid #999;border-top: none;}
+.center>.right>ul>li>div{float: left;}
+.center>.right>ul>li>.picture{margin: 20px 36px 10px 2px;}
+.center>.right>ul>li>.picture>a>img{width: 90px;height: 78px;}
+.center>.right>ul>li>.name{width: 232px;padding-top: 20px;}
+.center>.right>ul>li>.name>p{font: 14px/24px "微软雅黑";color: #333;}
+.center>.right>ul>li>.price{font: 14px/112px "宋体";margin-left: 110px;font-weight: bold;color: #333;}
+.center>.right>ul>li>.state,.center>.right>ul>li>.operation{margin: 22px 0 0 95px;}
+.center>.right>ul>li>.state>p{font: 14px/28px "微软雅黑";color: #333;}
+.center>.right>ul>li>.state>p>a:hover{color: #F41909;}
+.center>.right>ul>li>.operation>a{display: block;font: 14px/28px "微软雅黑";}
+.center>.right>ul>li>.operation>a:hover{color: #F41909;}
+.center>.pagination{margin-top: 40px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

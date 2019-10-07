@@ -1,0 +1,63 @@
+.center>.left{float: left;}
+.center>.left>h1{font: 12px/34px "微软雅黑";margin-top: 24px;margin-left: 8px;}
+.center>.left>ul{float: left;width: 218px;padding-left: 20px;border: 1px solid #999;padding-bottom: 15px;}
+.center>.left>ul>li{margin-top: 10px;}
+.center>.left>ul>li>h2{font: 14px/36px "微软雅黑";color: #333;font-weight: bold;}
+.center>.left>ul>li>a{display: block;font: 12px/30px "微软雅黑";}
+.center>div>ul>li>a:hover,.center>div>ul>li:first-child>h2+a+a{color: #F41909;}
+.center>.right{float: right;width: 924px;}
+.center>.right>h1{font: 16px/16px "微软雅黑";margin-top: 86px;margin-bottom: 18px;}
+.center>.right>ul>li{margin-bottom: 25px;}
+.center>.right>ul>li>p{float: left;margin-left: 35px;font: 14px/14px "微软雅黑";}
+.center>.right>ul>li>p>span{color: #F41909;}
+.center>.right>h2{font: 16px/16px "微软雅黑";margin-top: 15px;margin-bottom: 10px;}
+.center>.right>.list-top{border: 1px solid #999;}
+.center>.right>.list-top>p{font: 14px/36px "微软雅黑";float: left;margin-left: 110px;}
+.center>.right>.list-top>p:first-child{margin-left: 75px;margin-right: 222px;}
+.center>.right>.list-top>p:first-child+p{margin-right: 20px;}
+.center>.right>.list-body{border: 1px solid #999;margin-top: -1px;}
+.center>.right>.list-body>div{float: left;}
+.center>.right>.list-body>.picture{margin: 20px 36px 10px 2px;}
+.center>.right>.list-body>.picture>a>img{width: 90px;height: 78px;}
+.center>.right>.list-body>.name{width: 232px;padding-top: 20px;}
+.center>.right>.list-body>.name>p{font: 14px/24px "微软雅黑";color: #333;}
+.center>.right>.list-body>.price{font: 16px/112px "微软雅黑";margin-left: 90px;color: #333;}
+.center>.right>.list-body>.num{font: 14px/112px "微软雅黑";margin-left: 120px;color: #333;}
+.center>.right>.list-body>.operation{font: 16px/112px "微软雅黑";margin-left: 100px;color: #F41909;}
+.center>.right>.list-tail{text-align: right;}
+.center>.right>.list-tail>ul{padding-top: 5px;}
+.center>.right>.list-tail>ul>li{text-align: right;}
+.center>.right>.list-tail>ul>li>p{display: inline-block;font: 12px/22px "微软雅黑";}
+.center>.right>.list-tail>ul>li>p:first-child+p{width: 50px;text-align: left;color: #F41909;}
+.center>.right>.list-tail>a{display: inline-block;width: 98px;font: 14px/30px "微软雅黑";color: #fff;background: #F41909;text-align: center;margin-top: 18px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
