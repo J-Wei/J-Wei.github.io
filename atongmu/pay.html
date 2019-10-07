@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="keywords" content="铁臂阿童木,阿童木，鞋子，童鞋，童装"/>
+		<meta name="description" content="在动画世界里，已超过五十年历史的Astro Boy，由日本漫画大师手冢治虫先生创作的，他被喻为日本“漫画之神”。自1952年，《铁臂阿童木》问世，轰动了整个日本。这个聪明、勇敢、正义的小机器娃娃几乎是人见人爱。这部长篇连载故事加上后来制作的同名动画在电视台播放，先后持续了13年。"/>
+		<meta name="author" content="贾威"/>
+		<title>支付</title>
+	    <link rel="stylesheet" href="css/bootstrap.min.css">
+	    <link rel="shortcut icon" type="image/x-icon" href="img/logo.png">
+	    <link rel="stylesheet" href="css/base.css">
+	    <link rel="stylesheet" href="css/pay.css">
+	    <script src="js/jquery-1.11.2.min.js"></script>
+	    <script src="js/jquery-migrate-1.2.1.js"></script>
+	    <script src="js/bootstrap.min.js"></script>
+	    <script src="js/jquery-validate.js"></script>
+	    <script src="js/password.js"></script>
+	    <script src="js/communal.js"></script>
+	    <!--[if lt IE 9]>
+	    	<script src="//cdn.bootcss.com/html5shiv/3.7.3/html5shiv-printshiv.js"></script>
+	    	<script src="//cdn.bootcss.com/respond.js/1.4.2/respond.js"></script>
+	    <![endif]-->
+	</head>
+	<body>
+		<!--header-->
+		<div class="header hidden-xs">
+			<div class="container padding">
+				<div class="col-md-6 col-sm-6">
+					<p class="margin">尊敬的<a href="order.html">123456</a>用户您好，欢迎来到阿童木品牌商城!</p>
+				</div>
+				<div class="col-md-6 col-sm-6 text-right padding header-right">
+					<a href="login.html">请登录</a>
+					<a href="register.html">免费注册</a>
+					<a href="">收藏本站<img src="img/love.png" alt="love.png" /></a>
+					<a href="shop_cart.html">我的购物车<img src="img/cart.png" alt="cart.png" /></a>
+				</div>
+			</div>
+		</div>
+		<!--header end-->
+		<!--mob-header-->
+		<div class="container padding visible-xs mob-header">
+			<div class="navbar navbar-default col-xs-12" role="navigation">
+				<div class="navbar-header col-xs-12 padding">
+					<button type="button" class="navbar-toggle pull-left" data-toggle="collapse" data-target="#example-navbar-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="index.html"><img src="img/logo.jpg" alt="logo.jpg" class="mob-logo img-responsive"/></a>
+					<a class="dropdown-toggle pull-right" data-toggle="dropdown" href="#">
+						<img src="img/sign.jpg" alt="down.png" class="img-responsive"/>
+						<img src="img/down.png" alt="down.png" class="img-responsive"/>
+					</a>
+					<a href="" class="mob-search pull-right">退出账号</a>
+					<ul class="dropdown-menu dropdown-menu-right">
+						<li class="pull-left"><a href="order.html">我的订单</a></li>
+						<li class="pull-left"><a href="user.html">会员中心</a></li>
+						<li class="pull-left"><a href="order_details.html">收货信息</a></li>
+						<li class="pull-left"><a href="shop_cart.html">购物车<img src="img/cart.png" alt="cart.png" /></a></li>
+					</ul>
+				</div>
+				<div class="collapse navbar-collapse" id="example-navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li><a href="index.html">首页</a></li>
+						<li><a href="about_us.html">品牌介绍</a></li>
+						<li><a href="news.html">新闻中心</a></li>
+						<li><a href="product.html">产品中心</a></li>
+						<li><a href="order.html">会员中心</a></li>
+						<li><a href="contact_us.html">联系我们</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--mob-header end-->
+		<!--nav-->
+	    <div class="container padding hidden-xs">
+			<div class="navbar margin" role="navigation">
+			   <div class="col-md-2 col-sm-2 padding navbar-header">
+			      <a href="index.html"><img src="img/logo.jpg" alt="logo.jpg"/></a>
+			   </div>
+			   <div class="col-md-9 col-sm-9 padding col-md-offset-1 col-sm-offset-1">
+			      <ul class="nav navbar-nav col-md-12 col-sm-12 padding">
+			      	<li class="active col-md-2 col-sm-2 padding">
+			      		<a href="index.html" class="nav-top">INDEX</a>
+			      		<a href="index.html" class="nav-bottom">首页</a>
+			      	</li>
+			      	<li class="active col-md-2 col-sm-2 padding">
+			      		<a href="about_us.html" class="nav-top">BRAND</a>
+			      		<a href="about_us.html" class="nav-bottom">品牌介绍</a>
+			      	</li>
+			      	<li class="active col-md-2 col-sm-2 padding">
+			      		<a href="news.html" class="nav-top">NEWS</a>
+			      		<a href="news.html" class="nav-bottom">新闻中心</a>
+			      	</li>
+			      	<li class="active col-md-2 col-sm-2 padding">
+			      		<a href="user.html" class="nav-top">VIP</a>
+			      		<a href="user.html" class="nav-bottom">会员中心</a>
+			      	</li>
+			      	<li class="active col-md-2 col-sm-2 padding">
+			      		<a href="product.html" class="nav-top">PRODUCT</a>
+			      		<a href="product.html" class="nav-bottom">产品中心</a>
+			      	</li>
+			      	<li class="active col-md-2 col-sm-2 padding">
+			      		<a href="contact_us.html" class="nav-top">CONTACT</a>
+			      		<a href="contact_us.html" class="nav-bottom">联系我们</a>
+			      	</li>
+			      </ul>
+			   </div>
+			</div>
+	    </div>
+	    <!--nav end-->
+	    <!--breadcrumb-->
+	    <div class="container padding visible-xs">
+			<ol class="breadcrumb padding">
+	    		<li><a href="index.html">会员中心</a></li>
+				<li>订单支付</li>
+			</ol>
+	    </div>
+	    <!--breadcrumb end-->
+	    <!--recommend-->
+	    <div class="container padding core">
+	    	<div class="col-md-12 col-sm-12 col-xs-12 padding">
+	    		<div class="col-md-2 col-sm-2 col-xs-3 padding col-md-offset-2 col-sm-offset-1 failure-img">
+	    			<img src="img/pay1.png" alt="pay1.png" class="img-responsive"/>
+	    		</div>
+	    		<div class="col-md-6 col-sm-7 col-xs-9 col-md-offset-1 col-sm-offset-1 padding">
+	    			<h1>您的订单已生成，请尽快支付</h1>
+	    			<h1>应付金额：<span>￥1596</span></h1>
+	    			<p>注：请您在提交订单后72小时内完成付款，否则超过时间则自动取消订单</p>
+	    		</div>
+	    	</div>
+	    	<div class="col-md-12 col-sm-12 col-xs-12 payment-box">
+	    		<form action="" method="post">
+	    			<div class="col-md-1 col-sm-2 col-xs-3 padding">
+	    				<h2>快捷支付</h2>
+	    				<h3>网银支付</h3>
+	    			</div>
+	    			<div class="col-md-8 col-sm-8 col-xs-9 col-md-offset-1 padding">
+	    				<ul class="col-md-12 col-sm-12 col-xs-12 padding quick">
+	    					<li class="col-md-3 col-sm-3 col-xs-6">
+		    					<label for="alipay"><img src="img/pay1.jpg" alt="pay1.jpg" class="img-responsive"/></label>
+		    					<input type="radio" name="payment" id="alipay"/>
+		    				</li>
+		    				<li class="col-md-3 col-sm-3 col-xs-6">
+		    					<label for="scan"><img src="img/pay2.jpg" alt="pay2.jpg"  class="img-responsive"/></label>
+		    					<input type="radio" name="payment" id="scan"/>
+		    				</li>
+	    				</ul>
+	    				<ul class="col-md-12 col-sm-12 col-xs-12 padding bank">
+	    					<li class="col-md-3 col-sm-3 hidden-xs">
+		    					<label for="cbc"><img src="img/bank1.jpg" alt="bank1.jpg" class="img-responsive"/></label>
+		    					<input type="radio" name="payment" id="cbc"/>
+		    				</li>
+		    				<li class="col-md-3 col-sm-3 hidden-xs">
+		    					<label for="icbc"><img src="img/bank2.jpg" alt="bank2.jpg"  class="img-responsive"/></label>
+		    					<input type="radio" name="payment" id="icbc"/>
+		    				</li>
+		    				<li class="col-md-3 col-sm-3 col-xs-6">
+		    					<label for="bc"><img src="img/bank3.jpg" alt="bank3.jpg"  class="img-responsive"/></label>
+		    					<input type="radio" name="payment" id="bc"/>
+		    				</li>
+		    				<li class="col-md-3 col-sm-3 col-xs-6">
+		    					<label for="pab"><img src="img/bank4.jpg" alt="bank4.jpg"  class="img-responsive"/></label>
+		    					<input type="radio" name="payment" id="pab"/>
+		    				</li>
+		    				<li class="col-md-3 col-sm-3 hidden-xs">
+		    					<label for="gdb"><img src="img/bank5.jpg" alt="bank5.jpg"  class="img-responsive"/></label>
+		    					<input type="radio" name="payment" id="gdb"/>
+		    				</li>
+		    				<li class="col-md-3 col-sm-3 hidden-xs">
+		    					<label for="cmb"><img src="img/bank6.jpg" alt="bank6.jpg"  class="img-responsive"/></label>
+		    					<input type="radio" name="payment" id="cmb"/>
+		    				</li>
+		    				<li class="col-md-3 col-sm-3 col-xs-6">
+		    					<label for="abc"><img src="img/bank7.jpg" alt="bank7.jpg"  class="img-responsive"/></label>
+		    					<input type="radio" name="payment" id="abc"/>
+		    				</li>
+		    				<li class="col-md-3 col-sm-3 col-xs-6">
+		    					<label for="spdb"><img src="img/bank8.jpg" alt="bank8.jpg"  class="img-responsive"/></label>
+		    					<input type="radio" name="payment" id="spdb"/>
+		    				</li>
+		    				
+		    				<li class="col-md-3 col-sm-3 hidden-xs">
+		    					<label for="citic"><img src="img/bank9.jpg" alt="bank9.jpg"  class="img-responsive"/></label>
+		    					<input type="radio" name="payment" id="citic"/>
+		    				</li>
+		    				<li class="col-md-3 col-sm-3 hidden-xs">
+		    					<label for="cib"><img src="img/bank10.jpg" alt="bank10.jpg"  class="img-responsive"/></label>
+		    					<input type="radio" name="payment" id="cib"/>
+		    				</li>
+		    				<li class="col-md-3 col-sm-3 col-xs-6">
+		    					<label for="cmbc"><img src="img/bank11.jpg" alt="bank11.jpg"  class="img-responsive"/></label>
+		    					<input type="radio" name="payment" id="cmbc"/>
+		    				</li>
+		    				<li class="col-md-3 col-sm-3 col-xs-6">
+		    					<label for="ceb"><img src="img/bank12.jpg" alt="bank12.jpg"  class="img-responsive"/></label>
+		    					<input type="radio" name="payment" id="ceb"/>
+		    				</li>
+		    				<li class="col-md-3 col-sm-3 hidden-xs">
+		    					<label for="bob"><img src="img/bank13.jpg" alt="bank13.jpg"  class="img-responsive"/></label>
+		    					<input type="radio" name="payment" id="bob"/>
+		    				</li>
+		    				<li class="col-md-3 col-sm-3 hidden-xs">
+		    					<label for="psbc"><img src="img/bank14.jpg" alt="bank14.jpg"  class="img-responsive"/></label>
+		    					<input type="radio" name="payment" id="psbc"/>
+		    				</li>
+		    				<li class="col-md-3 col-sm-3 col-xs-6">
+		    					<label for="bocm"><img src="img/bank15.jpg" alt="bank15.jpg"  class="img-responsive"/></label>
+		    					<input type="radio" name="payment" id="bocm"/>
+		    				</li>
+		    				<li class="col-md-3 col-sm-3 col-xs-6">
+		    					<a href="">更多银行<span class="glyphicon glyphicon-chevron-down"></span></a>
+		    				</li>
+	    				</ul>
+	    			</div>
+	    			<div class="col-md-8 col-sm-8 col-xs-12 col-md-offset-2 col-sm-offset-2 padding payment-password">
+			    			<div id="payPassword_container" class="col-md-6 col-sm-6 col-xs-12 padding alieditContainer clearfix" data-busy="0">
+							<label for="i_payPassword" class="i-block">支付密码：</label>
+							<div class="i-block" data-error="i_error">
+								<div class="i-block six-password">
+									<input class="i-text sixDigitPassword" id="payPassword_rsainput" type="password" autocomplete="off" required="required" value="" name="payPassword_rsainput" data-role="sixDigitPassword" tabindex="" maxlength="6" minlength="6" aria-required="true">
+									<div tabindex="0" class="sixDigitPassword-box">
+										<i><b style="visibility: hidden;"></b></i>
+										<i><b style="visibility: hidden;"></b></i>
+										<i><b style="visibility: hidden;"></b></i>
+										<i><b style="visibility: hidden;"></b></i>
+										<i><b style="visibility: hidden;"></b></i>
+										<i><b style="visibility: hidden;"></b></i>
+										<span id="cardwrap" data-role="cardwrap"></span>
+									</div>
+								</div>
+							</div>
+						</div>
+		    			<div class="col-md-6 col-sm-6 col-xs-12 padding text-right">
+			    			待支付总金额:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>￥1596</span>
+			    		</div>
+	    			</div>
+	    			<div class="col-md-8 col-sm-8 col-xs-12 col-md-offset-2 col-sm-offset-2 text-right">
+	    				<input type="submit" name="" id="" class="con-pay" value="确认付款" />
+	    			</div>
+	    		</form>
+	    	</div>
+	    </div>
+	    <!--recommend end-->
+	    <!--footer-->
+		<div class="footer">
+			<div class="container text-center hidden-xs">
+				<div class="col-md-2 col-sm-2 padding">
+	                <h4><a href="about_us.html">关于阿童木</a></h4>
+	                <ul>
+	                    <li><a href="about_us.html">集团概念</a></li>
+	                    <li><a href="about_us.html">总裁致辞</a></li>
+	                    <li><a href="about_us.html">企业理念</a></li>
+	                    <li><a href="about_us.html">荣誉资质</a></li>
+	                    <li><a href="about_us.html">阿童木历史</a></li>
+	                </ul>
+	            </div>
+	            <div class="col-md-2 col-sm-2 padding">
+	                <h4><a href="news.html">最新资质</a></h4>
+	                <ul>
+	                    <li><a href="news.html">新闻</a></li>
+	                    <li><a href="news.html">产品</a></li>
+	                    <li><a href="news.html">活动</a></li>
+	                    <li><a href="news.html">视频</a></li>
+	                </ul>
+	            </div>
+	            <div class="col-md-2 col-sm-2 padding">
+	                <h4><a href="product.html">产品中心</a></h4>
+	                <ul>
+	                    <li><a href="product.html">儿童装</a></li>
+	                    <li><a href="product.html">亲子装</a></li>
+	                    <li><a href="product.html">孕妇装</a></li>
+	                    <li><a href="product.html">婴儿装</a></li>
+	                </ul>
+	            </div>
+	            <div class="col-md-2 col-sm-2 padding">
+	                <h4><a href="">专卖店</a></h4>
+	                <ul>
+	                    <li><a href="">门店展示</a></li>
+	                    <li><a href="">产品展示</a></li>
+	                    <li><a href="">人物展示</a></li>
+	                    <li><a href="">场景展示</a></li>
+	                </ul>
+	            </div>
+	            <div class="col-md-2 col-sm-2 padding">
+	                <h4><a href="">帮助与支持</a></h4>
+	                <ul>
+	                    <li><a href="">资料下载</a></li>
+	                    <li><a href="">代理加盟</a></li>
+	                    <li><a href="">关注企业</a></li>
+	                    <li><a href="">阿童木app</a></li>
+	                </ul>
+	            </div>
+	            <div class="col-md-2 col-sm-2 padding">
+	                <h4><a href="contact_us.html">售后服务</a></h4>
+	                <ul>
+	                    <li><a href="contact_us.html">退款政策</a></li>
+	                    <li><a href="contact_us.html">退款流程</a></li>
+	                    <li><a href="contact_us.html">售后服务</a></li>
+	                    <li><a href="contact_us.html">质量保证</a></li>
+	                </ul>
+	            </div>
+			</div>
+			<div class="foot-bottom text-center">
+				<h1>24小时在线客服</h1>
+				<h1>400-6886881</h1>
+				<p>阿童木品牌商城有限公司    @版权所有 重庆市渝中区上清寺路9号</p>
+			</div>
+		</div>
+		<!--footer end-->
+	</body>
+</html>

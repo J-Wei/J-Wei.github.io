@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="keywords" content="铁臂阿童木,阿童木，鞋子，童鞋，童装"/>
+		<meta name="description" content="在动画世界里，已超过五十年历史的Astro Boy，由日本漫画大师手冢治虫先生创作的，他被喻为日本“漫画之神”。自1952年，《铁臂阿童木》问世，轰动了整个日本。这个聪明、勇敢、正义的小机器娃娃几乎是人见人爱。这部长篇连载故事加上后来制作的同名动画在电视台播放，先后持续了13年。"/>
+		<meta name="author" content="贾威"/>
+		<title>确认收货地址</title>
+	    <link rel="stylesheet" href="css/bootstrap.min.css">
+	    <link rel="stylesheet" href="css/base.css">
+	    <link rel="stylesheet" href="css/confirm_order.css">
+	    <link rel="shortcut icon" type="image/x-icon" href="img/logo.png">
+	    <script src="js/jquery-1.11.2.min.js"></script>
+	    <script src="js/jquery-migrate-1.2.1.js"></script>
+	    <script src="js/bootstrap.min.js"></script>
+	    <script src="js/communal.js"></script>
+	    <!--[if lt IE 9]>
+	    	<script src="//cdn.bootcss.com/html5shiv/3.7.3/html5shiv-printshiv.js"></script>
+	    	<script src="//cdn.bootcss.com/respond.js/1.4.2/respond.js"></script>
+	    <![endif]-->
+	</head>
+	<body>
+		<!--header-->
+		<div class="header hidden-xs">
+			<div class="container padding">
+				<div class="col-md-6 col-sm-6">
+					<p class="margin">尊敬的<a href="order.html">123456</a>用户您好，欢迎来到阿童木品牌商城!</p>
+				</div>
+				<div class="col-md-6 col-sm-6 text-right padding header-right">
+					<a href="login.html">请登录</a>
+					<a href="register.html">免费注册</a>
+					<a href="">收藏本站<img src="img/love.png" alt="love.png" /></a>
+					<a href="shop_cart.html">我的购物车<img src="img/cart.png" alt="cart.png" /></a>
+				</div>
+			</div>
+		</div>
+		<!--header end-->
+		<!--mob-header-->
+		<div class="container padding visible-xs mob-header">
+			<div class="navbar navbar-default col-xs-12" role="navigation">
+				<div class="navbar-header col-xs-12 padding">
+					<button type="button" class="navbar-toggle pull-left" data-toggle="collapse" data-target="#example-navbar-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="index.html"><img src="img/logo.jpg" alt="logo.jpg" class="mob-logo img-responsive"/></a>
+					<a class="dropdown-toggle pull-right" data-toggle="dropdown" href="#">
+						<img src="img/sign.jpg" alt="down.png" class="img-responsive"/>
+						<img src="img/down.png" alt="down.png" class="img-responsive"/>
+					</a>
+					<a href="" class="mob-search pull-right">退出账号</a>
+					<ul class="dropdown-menu dropdown-menu-right">
+						<li class="pull-left"><a href="order.html">我的订单</a></li>
+						<li class="pull-left"><a href="user.html">会员中心</a></li>
+						<li class="pull-left"><a href="order_details.html">收货信息</a></li>
+						<li class="pull-left"><a href="shop_cart.html">购物车<img src="img/cart.png" alt="cart.png" /></a></li>
+					</ul>
+				</div>
+				<div class="collapse navbar-collapse" id="example-navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li><a href="index.html">首页</a></li>
+						<li><a href="about_us.html">品牌介绍</a></li>
+						<li><a href="news.html">新闻中心</a></li>
+						<li><a href="product.html">产品中心</a></li>
+						<li class="active"><a href="order.html">会员中心</a></li>
+						<li><a href="contact_us.html">联系我们</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--mob-header end-->
+		<!--nav-->
+	    <div class="container padding hidden-xs">
+			<div class="navbar margin" role="navigation">
+			   <div class="col-md-2 col-sm-2 padding navbar-header">
+			      <a href="index.html"><img src="img/logo.jpg" alt="logo.jpg"/></a>
+			   </div>
+			   <div class="col-md-9 col-sm-9 padding col-md-offset-1 col-sm-offset-1">
+			      <ul class="nav navbar-nav col-md-12 col-sm-12 padding">
+			      	<li class="active col-md-2 col-sm-2 padding">
+			      		<a href="index.html" class="nav-top">INDEX</a>
+			      		<a href="index.html" class="nav-bottom">首页</a>
+			      	</li>
+			      	<li class="active col-md-2 col-sm-2 padding">
+			      		<a href="about_us.html" class="nav-top">BRAND</a>
+			      		<a href="about_us.html" class="nav-bottom">品牌介绍</a>
+			      	</li>
+			      	<li class="active col-md-2 col-sm-2 padding">
+			      		<a href="news.html" class="nav-top">NEWS</a>
+			      		<a href="news.html" class="nav-bottom">新闻中心</a>
+			      	</li>
+			      	<li class="active col-md-2 col-sm-2 padding on">
+			      		<a href="user.html" class="nav-top">VIP</a>
+			      		<a href="user.html" class="nav-bottom">会员中心</a>
+			      	</li>
+			      	<li class="active col-md-2 col-sm-2 padding">
+			      		<a href="product.html" class="nav-top">PRODUCT</a>
+			      		<a href="product.html" class="nav-bottom">产品中心</a>
+			      	</li>
+			      	<li class="active col-md-2 col-sm-2 padding">
+			      		<a href="contact_us.html" class="nav-top">CONTACT</a>
+			      		<a href="contact_us.html" class="nav-bottom">联系我们</a>
+			      	</li>
+			      </ul>
+			   </div>
+			</div>
+	    </div>
+	    <!--nav end-->
+	    <!--breadcrumb-->
+	    <div class="container padding">
+	    	<ol class="breadcrumb padding hidden-xs">
+	    		<li><a href="index.html">首页</a></li>
+	    		<li><a href="index.html">会员中心</a></li>
+				<li>确认收货地址</li>
+			</ol>
+			<ol class="breadcrumb visible-xs">
+	    		<li><a href="index.html">我的订单</a></li>
+				<li>确认订单</li>
+			</ol>
+	    </div>
+	    <!--breadcrumb end-->
+	    <!--content-->
+	    <div class="container padding core">
+	    	<div class="visible-xs col-xs-8 padding">
+	    		寄送至
+	    	</div>
+	    	<div class="col-md-12 col-sm-12 col-xs-4 text-right">
+	    		管理收货地址
+	    	</div>
+	    	<div class="col-md-12 col-sm-12 col-xs-12 padding">
+	    		<form action="" method="post">
+	    			<div class="col-md-12 col-sm-12 hidden-xs padding address">
+	    				<div class="col-md-1 col-sm-1 padding">
+		    				寄送至
+		    			</div>
+		    			<div class="col-md-6 col-sm-6 padding">
+		    				<img src="img/confirm_order1.png" alt="confirm_order1.png" class="img-responsive"/>广东省广州市天河区天河西路1号2栋A座3楼（小方收）
+		    			</div>
+		    			<div class="col-md-2 col-sm-2 padding">
+		    				13345678910
+		    			</div>
+		    			<div class="col-md-1 col-sm-1 padding">
+		    				默认地址
+		    			</div>
+		    			<div class="col-md-2 col-sm-2 padding">
+		    				<a href="">修改本地址</a>
+		    			</div>
+	    			</div>
+	    			<div class="col-xs-10 padding visible-xs mob-address">
+	    				<p>广东省广州市天河区天河西路1号2栋A座3楼（小方收）</p>
+	    				<a href="">修改地址</a>
+	    			</div>
+	    			<div class="col-md-12 col-sm-12 hidden-xs padding added">
+	    				<div class="col-md-2 col-sm-3 padding">
+		    				<a href=""><img src="img/confirm_order2.png" alt="confirm_order2.png" class="img-responsive"/>使用新地址</a>
+		    			</div>
+	    			</div>
+	    			<div class="col-xs-12 visible-xs padding mob-added">
+	    				<div class="col-xs-5 padding">
+	    					<a href=""><img src="img/confirm_order4.png" alt="confirm_order4.png" class="img-responsive"/>使用新地址</a>
+	    				</div>
+	    			</div>
+	    			<div class="col-md-12 col-sm-12 hidden-xs padding">
+	    				<p>确认订单信息</p>
+	    			</div>
+	    			<div class="col-md-12 col-sm-12 hidden-xs padding title-bar">
+	    				<div class="col-md-4 col-sm-4 padding">
+	    					商品信息
+	    				</div>
+	   					<div class="col-md-2 col-sm-2 padding">
+	   						商品单价
+	   					</div>
+	   					<div class="col-md-2 col-sm-2 padding">
+    						商品数量
+    					</div>
+	    				<div class="col-md-2 col-sm-2 padding">
+	    					商品总价
+	    				</div>
+	    				<div class="col-md-2 col-sm-2 padding">
+	   						操作
+	   					</div>
+	   				</div>
+	    			<ul class="col-md-12 col-sm-12 hidden-xs padding commodity">
+	    				<li class="col-md-12 col-sm-12 padding">
+	    					<div class="col-md-4 col-sm-4 padding information">
+	    						<div class="col-md-6  col-sm-6 padding">
+		    						<a href="pro_details.html"><img src="img/pro_details4.jpg" alt="pro_details4.jpg" class="img-responsive"/></a>
+		    					</div>
+		    					<div class="col-md-6 col-sm-6 padding">
+		    						<a href="pro_details.html">卡通人物清新短袖全家福家庭装</a>
+		    					</div>
+	    					</div>
+	    					<div class="col-md-2 col-sm-2 padding">
+	    						￥399.00
+	    					</div>
+	    					<div class="col-md-2 col-sm-2 padding quantity">
+	    						1
+	    					</div>
+	    					<div class="col-md-2 col-sm-2 padding">
+	    						￥399.00
+	    					</div>
+	    					<div class="col-md-2 col-sm-2 padding">
+	    						<span class="delete">删除</span>
+	    					</div>
+	    				</li>
+	    				<li class="col-md-12 col-sm-12 padding">
+	    					<div class="col-md-4 col-sm-4 padding information">
+	    						<div class="col-md-6  col-sm-6 padding">
+		    						<a href="pro_details.html"><img src="img/pro_details4.jpg" alt="pro_details4.jpg" class="img-responsive"/></a>
+		    					</div>
+		    					<div class="col-md-6 col-sm-6 padding">
+		    						<a href="pro_details.html">卡通人物清新短袖全家福家庭装</a>
+		    					</div>
+	    					</div>
+	    					<div class="col-md-2 col-sm-2 padding">
+	    						￥399.00
+	    					</div>
+	    					<div class="col-md-2 col-sm-2 padding quantity">
+	    						1
+	    					</div>
+	    					<div class="col-md-2 col-sm-2 padding">
+	    						￥399.00
+	    					</div>
+	    					<div class="col-md-2 col-sm-2 padding">
+	    						<span class="delete">删除</span>
+	    					</div>
+	    				</li>
+	    				<li class="col-md-12 col-sm-12 padding">
+	    					<div class="col-md-4 col-sm-4 padding information">
+	    						<div class="col-md-6  col-sm-6 padding">
+		    						<a href="pro_details.html"><img src="img/pro_details4.jpg" alt="pro_details4.jpg" class="img-responsive"/></a>
+		    					</div>
+		    					<div class="col-md-6 col-sm-6 padding">
+		    						<a href="pro_details.html">卡通人物清新短袖全家福家庭装</a>
+		    					</div>
+	    					</div>
+	    					<div class="col-md-2 col-sm-2 padding">
+	    						￥399.00
+	    					</div>
+	    					<div class="col-md-2 col-sm-2 padding quantity">
+	    						1
+	    					</div>
+	    					<div class="col-md-2 col-sm-2 padding">
+	    						￥399.00
+	    					</div>
+	    					<div class="col-md-2 col-sm-2 padding">
+	    						<span class="delete">删除</span>
+	    					</div>
+	    				</li>
+	    				<li class="col-md-12 col-sm-12 padding">
+	    					<div class="col-md-4 col-sm-4 padding information">
+	    						<div class="col-md-6  col-sm-6 padding">
+		    						<a href="pro_details.html"><img src="img/pro_details4.jpg" alt="pro_details4.jpg" class="img-responsive"/></a>
+		    					</div>
+		    					<div class="col-md-6 col-sm-6 padding">
+		    						<a href="pro_details.html">卡通人物清新短袖全家福家庭装</a>
+		    					</div>
+	    					</div>
+	    					<div class="col-md-2 col-sm-2 padding">
+	    						￥399.00
+	    					</div>
+	    					<div class="col-md-2 col-sm-2 padding quantity">
+	    						1
+	    					</div>
+	    					<div class="col-md-2 col-sm-2 padding">
+	    						￥399.00
+	    					</div>
+	    					<div class="col-md-2 col-sm-2 padding">
+	    						<span class="delete">删除</span>
+	    					</div>
+	    				</li>
+	    			</ul>
+	    			<ul class="col-xs-12 visible-xs padding mob-commodity">
+	    				<li class="col-xs-12 padding">
+	    					<h6>商品详细信息<img src="img/confirm_order5.png" alt="confirm_order5.png" class="pull-right delete"/></h6>
+	    					<div class="col-xs-12 padding">
+	    						<div class="col-xs-6">
+	    							<a href="pro_details.html"><img src="img/pro_details4.jpg" alt="pro_details4.jpg" class="img-responsive"/></a>
+	    						</div>
+	    						<div class="col-xs-6">
+	    							<p><a href="pro_details.html">卡通人物清新短袖全家福家庭装</a></p>
+	    							<p>单价:&nbsp;&nbsp;<span>￥399.00</span></p>
+	    							<p>数量:&nbsp;&nbsp;×1</p>
+	    						</div>
+	    					</div>
+	    				</li>
+	    			</ul>
+	    			<div class="col-xs-12 visible-xs padding">
+	    				<div class="col-xs-6 padding">
+	    					<h5>商品总价：<span>￥399.00</span></h5>
+	    				</div>
+	    				<div class="col-xs-6 padding">
+	    					<h5>(含运费）:<span>￥0.00</span></h5>
+	    				</div>
+	    			</div>
+	    			<div class="col-md-12 col-sm-12 col-xs-12 padding transport">
+	    				<div class="col-md-12 col-sm-12 col-xs-4 padding">
+		    				<label for="leaving-message">给卖家留言：</label>
+		   				</div>
+		   				<div class="col-md-3  col-sm-3 col-xs-8 col-xs-offset-4 padding col-md-offset-1 col-sm-offset-1">
+		    				<textarea name="leaving-message" id="leaving-message" rows="3">选填</textarea>
+		   				</div>
+		   				<div class="col-md-6 col-sm-7 hidden-xs padding pull-right ">
+		    				<p>运送方式：普通快递&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp快递&nbsp&nbsp&nbsp免邮<span class="pull-right">0.00</span></p>
+		    				<p>发货时间：卖家承诺在买家提交订单内&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp24小时发货<span class="pull-right">0.00</span></p>
+		    				<p>运险费用：卖家赠送<span class="pull-right">0.00</span></p>
+		   				</div>
+	   				</div>
+	   				<div class="col-md-12 col-sm-12 hidden-xs padding order-details">
+	    				<div class="col-md-6 col-sm-7 padding pull-right">
+		    				<p>合计（含运费）:<span>￥1596</span></p>
+		    				<p>合计（含运费）:<span>￥1596</span></p>
+		    				<p>寄送至：广东省广州市天河区天河路1号2栋A座3楼</p>
+		    				<p>收货人：小方&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp13345678910</p>
+		   				</div>
+	   				</div>
+	   				<ul class="col-xs-12 padding visible-xs commodity-information">
+	   					<li>
+	   						<p>运送方式：普通快递<span class="pull-right">(快递   免邮)</span></p>
+	   					</li>
+	   					<li>
+	   						<p>发货时间：卖家承诺在买家提交订单内24小时发货</p>
+	   					</li>
+	   					<li>
+	   						<p>运险费用：卖家赠送，确认收货前退货可获，保险赔付</p>
+	   					</li>
+	   				</ul>
+	   				<div class="col-md-12 col-sm-12 col-xs-12 padding confirm-order">
+		   				<div class="col-md-2 col-sm-3 col-xs-6 padding pull-right">
+		    				<a href="pay.html">提交订单</a>
+		   				</div>
+	    				<div class="col-md-2 col-sm-3 col-xs-6 padding pull-right">
+		    				<a href="shop_cart.html">返回购物车</a>
+		   				</div>
+	   				</div>
+	    		</form>
+	    	</div>
+	    </div>
+	    <!--content end-->
+	    <!--footer-->
+		<div class="footer">
+			<div class="container text-center hidden-xs">
+				<div class="col-md-2 col-sm-2 padding">
+	                <h4><a href="about_us.html">关于阿童木</a></h4>
+	                <ul>
+	                    <li><a href="about_us.html">集团概念</a></li>
+	                    <li><a href="about_us.html">总裁致辞</a></li>
+	                    <li><a href="about_us.html">企业理念</a></li>
+	                    <li><a href="about_us.html">荣誉资质</a></li>
+	                    <li><a href="about_us.html">阿童木历史</a></li>
+	                </ul>
+	            </div>
+	            <div class="col-md-2 col-sm-2 padding">
+	                <h4><a href="news.html">最新资质</a></h4>
+	                <ul>
+	                    <li><a href="news.html">新闻</a></li>
+	                    <li><a href="news.html">产品</a></li>
+	                    <li><a href="news.html">活动</a></li>
+	                    <li><a href="news.html">视频</a></li>
+	                </ul>
+	            </div>
+	            <div class="col-md-2 col-sm-2 padding">
+	                <h4><a href="product.html">产品中心</a></h4>
+	                <ul>
+	                    <li><a href="product.html">儿童装</a></li>
+	                    <li><a href="product.html">亲子装</a></li>
+	                    <li><a href="product.html">孕妇装</a></li>
+	                    <li><a href="product.html">婴儿装</a></li>
+	                </ul>
+	            </div>
+	            <div class="col-md-2 col-sm-2 padding">
+	                <h4><a href="">专卖店</a></h4>
+	                <ul>
+	                    <li><a href="">门店展示</a></li>
+	                    <li><a href="">产品展示</a></li>
+	                    <li><a href="">人物展示</a></li>
+	                    <li><a href="">场景展示</a></li>
+	                </ul>
+	            </div>
+	            <div class="col-md-2 col-sm-2 padding">
+	                <h4><a href="">帮助与支持</a></h4>
+	                <ul>
+	                    <li><a href="">资料下载</a></li>
+	                    <li><a href="">代理加盟</a></li>
+	                    <li><a href="">关注企业</a></li>
+	                    <li><a href="">阿童木app</a></li>
+	                </ul>
+	            </div>
+	            <div class="col-md-2 col-sm-2 padding">
+	                <h4><a href="contact_us.html">售后服务</a></h4>
+	                <ul>
+	                    <li><a href="contact_us.html">退款政策</a></li>
+	                    <li><a href="contact_us.html">退款流程</a></li>
+	                    <li><a href="contact_us.html">售后服务</a></li>
+	                    <li><a href="contact_us.html">质量保证</a></li>
+	                </ul>
+	            </div>
+			</div>
+			<div class="foot-bottom text-center">
+				<h1>24小时在线客服</h1>
+				<h1>400-6886881</h1>
+				<p>阿童木品牌商城有限公司    @版权所有 重庆市渝中区上清寺路9号</p>
+			</div>
+		</div>
+		<!--footer end-->
+	</body>
+</html>
