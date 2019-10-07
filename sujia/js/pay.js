@@ -1,0 +1,14 @@
+$(function(){
+	$('.center>.payment>.alipay>li').each(function(){
+		$(this).click(function(){
+			$(this).attr('class','on').siblings().removeAttr('class');
+			$('.center>.payment>.bank>li').removeAttr('class');
+		});
+	});
+	$('.center>.payment>.bank>li').each(function(){
+		$(this).click(function(){
+			$(this).attr('class','on').siblings().removeAttr('class');
+			$('.center>.payment>.alipay>li').removeAttr('class');
+		});
+	});
+});

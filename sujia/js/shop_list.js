@@ -1,0 +1,78 @@
+$(function(){
+	$('.choose').each(function(i){
+		$(this).click(function(){
+			$('.customary').eq(i).css('display','none');
+			$('.customary').not($('.customary').eq(i)).css('display','block');
+			$('.extend').eq(i).css('display','block');
+			$('.extend').not($('.extend').eq(i)).css('display','none');
+			$('.cancel').eq(i).css('display','block');
+			$('.cancel').not($('.cancel').eq(i)).css('display','none');
+			$('.extend').eq(i).find('input').css('display','block');
+			$('.extend').eq(i).find('a').attr('href','javaScript:;');
+			$('.choose').eq(i).css('display','none')
+			$('.choose').not($('.choose').eq(i)).css('display','block');
+			$('.more').eq(i).css('display','none')
+			$('.more').not($('.more').eq(i)).css('display','block');
+		});
+	});
+	$('.more').each(function(i){
+		$(this).attr('onOff',true);
+		$(this).click(function(){
+			if ($(this).attr('onOff')=="true"){
+				$(this).html('收起<span>∧</span>');
+				$('.customary').eq(i).css('display','none');
+				$('.extend').eq(i).css('display','block');
+				$('.extend').eq(i).find('input').css('display','none');
+				$(this).attr('onOff',false);
+			}else{
+				$(this).html('更多<span>∨</span>');
+				$('.customary').eq(i).css('display','block');
+				$('.extend').eq(i).css('display','none');
+				$(this).attr('onOff',true);
+			}
+		});
+	});
+	$('.cancel').each(function(i){
+		$(this).find('a').click(function(){
+			$('.customary').eq(i).css('display','block');
+			$('.extend').eq(i).css('display','none');
+			$('.cancel').eq(i).css('display','none');
+			$('.choose').eq(i).css('display','block');
+			$('.more').eq(i).css('display','block');
+		});
+	});
+	$('.extend').each(function(i){
+		$('.extend').eq(i).find('a').click(function(){
+			if ($(this).siblings().attr('checked')=='checked') {
+				$(this).siblings().removeAttr('checked');
+			} else{
+				$(this).siblings().attr('checked','ture');
+			}
+		});
+	});
+	$('.big-pic>li').each(function(i){
+		var num=i+1;
+		if (num%4==0) {
+			$(this).css('margin-right','0');
+		}
+	});
+	$('.center>.sort>ul>li').click(function(){
+		$(this).attr('class','on').siblings().removeAttr('class');
+	});
+	$('.center>.sort>.operate>div:first-child').click(function(){
+		$(this).addClass('on');
+		$('.center>.sort>.operate>div:first-child+div').removeClass('active');
+		$('.center>ul').addClass('big-pic').removeClass('list');
+	});
+	$('.center>.sort>.operate>div:first-child+div').click(function(){
+		$(this).addClass('active');
+		$('.center>.sort>.operate>div:first-child').removeClass('on');
+		$('.center>ul').addClass('list').removeClass('big-pic');
+	});
+	$('.center>.screen>div>.drop>p').mouseenter(function(){
+			$(this).siblings('ul').stop().slideDown(300);
+	});
+	$('.center>.screen>div>.drop').mouseleave(function(){
+		$(this).find('ul').stop().slideUp(300);
+	});
+});
