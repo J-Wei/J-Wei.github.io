@@ -1,0 +1,6 @@
+.news_list{margin-bottom: 4rem;}
+.news_list li{background: url(../img/news_bg1.png);background-repeat:repeat-x;background-position:bottom;}
+.news_list li h2{text-align:left;margin-left: .5rem;margin-top: .5rem;}
+.news_list li h2 b{font: 1.2rem/2.4rem 黑体;color: #010101;}
+.news_list li h3{text-align: right;}
+.news_list li h3 b{font: 1.2rem/1.4rem 黑体;color: #7e7878;}
