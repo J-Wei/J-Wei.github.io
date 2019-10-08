@@ -1,0 +1,71 @@
+.center>.location{margin-top: 20px;margin-left: 645px;}
+.center>.location>li{float: left;width: 148px;border-top: 5px solid #999;font: 12px/46px "微软雅黑";text-align: center;background: url(../img/shop_cart2.png) no-repeat center 0;}
+.center>.location>li:first-child+li+li{border-color: #666;background-image: url(../img/shop_cart1.png);}
+.center>.prompt{border: 1px solid #999;margin-top: 40px;background: url(../img/pay1.png) no-repeat 4px center;padding: 6px 0;}
+.center>.prompt>p{margin-left: 56px;font: 12px/30px "微软雅黑";color: #333;}
+.center>.prompt>p>span{color: #F41909;}
+.center>.prompt>p:first-child+p>span{font-size: 16px;}
+.center>h1{font: 16px/28px "微软雅黑";margin-top: 24px;color: #333;}
+.center>.payment{padding: 0 34px 045px;border: 1px solid #999;}
+.center>.payment>h2{border-bottom: 1px solid #999;font: 14px/54px "微软雅黑";color: #333;margin-top: 20px;}
+.center>.payment>ul{margin-top: 8px;}
+.center>.payment>ul>li{float: left;border: 1px solid #999;width: 162px;margin-top: 18px;margin-right: 66px;padding: 2px 4px;cursor: pointer;}
+.center>.payment>ul>li:first-child+li+li+li+li{margin-right: 0;}
+.center>.payment>ul>li>span{display: inline-block;width: 16px;height: 16px;margin-left: 4px;margin-bottom: 8px;background: url(../img/pay2.png) no-repeat;}
+.center>.payment>ul>.on>span{background: url(../img/pay4.png) no-repeat center center;}
+.center>.determine{border: 1px solid #999;margin-top: 30px;padding: 20px 0 15px;}
+.center>.determine>span{display: inline-block;width: 16px;height: 16px;margin-left: 48px;background: url(../img/pay4.png) no-repeat center center;margin-bottom: 8px;}
+.center>.determine>img{margin-left: 5px;}
+.center>.determine>p{float: right;width: 155px;font: 12px/38px "微软雅黑";}
+.center>.determine>p>span{color: #f41909;}
+.center>.pay{padding-left: 45px;}
+.center>.pay>h4{padding-left: 24px;background: url(../img/pay3.png) no-repeat left center;font: 12px/32px "微软雅黑";color: #333;}
+.center>.pay>p{font: 12px "微软雅黑";color: #333;margin-top: 5px;}
+.center>.pay>a{font: 14px/26px "微软雅黑";display: block;width: 80px;text-align: center;color: #fff;background: #F41909;margin-top: 20px;}
+
+.center>.pay .alieditContainer>a{float: left;margin-left: 8px;font: 12px/30px "微软雅黑";}
+.center>.pay .clearfix:after {clear: both;}
+.center>.pay .clearfix:before,.clearfix:after{content: " ";display: table;}
+.center>.pay .alieditContainer{position: relative;}
+.center>.pay .sixDigitPassword {position: absolute;left: -122px;top: 0;width: 1000px;height: 26px;color: #fff;font-size: 12px;-webkit-box-sizing: content-box;box-sizing: content-box;-webkit-user-select: initial;outline: 'none';z-index: 999;opacity:0;filter:alpha(opacity=0);}
+.center>.pay .sixDigitPassword-box {cursor:text;background: #fff;outline: none;position: relative;height: 28px;border: 1px solid #cccccc;}
+.center>.pay .sixDigitPassword-box i{width: 38px;float: left;display: block;padding-top: 10px;height: 18px;border-left: 1px solid #cccccc;}
+.center>.pay .sixDigitPassword-box i:first-child{border-color: transparent;}
+.center>.pay .sixDigitPassword-box .active {background: url(../img/password-blink.gif) no-repeat center center;}
+.center>.pay .sixDigitPassword-box b {display: block;margin: 0 auto;width: 7px;height: 7px;overflow: hidden;visibility:hidden;background: url(../img/passeord-dot.png) no-repeat;}
+.center>.pay .sixDigitPassword-box span {position: absolute;display: block;left: 0px;width: 39px;top: 0px;height: 27px;border: 1px solid rgba(82, 168, 236, .8);border: 1px solid #00ffff\9;border-radius: 2px;visibility: hidden;-webkit-box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.75), 0 0 8px rgba(82, 168, 236, 0.6);box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);}
+.center>.pay .ui-securitycore  .ui-form-item .ui-form-explain{margin-top: 8px;}
+.center>.pay .i-block{display: block;font: 14px/26px "微软雅黑";color: #333;margin-bottom: 4px;font-weight: bold;}
+.center>.pay .six-password{float: left;position: relative;height:32px;width:238px;overflow: hidden;vertical-align: middle;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
